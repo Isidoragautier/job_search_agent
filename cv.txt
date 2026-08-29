@@ -1,0 +1,54 @@
+ISIDORA GAUTIER - PROFILE FOR JOB MATCHING
+
+Location: Manly, Sydney NSW, Australia
+
+Summary: Business Analytics professional with seven years of experience leading
+data-driven logistics and operations initiatives at Procter & Gamble, and a
+Master of Business Analytics from Macquarie University (Jul 2024 - Jul 2026,
+Conferred, High Distinction average). Skilled in translating business
+requirements into structured analytics solutions.
+
+Target roles: Business Analyst, Data Analyst, Commercial Analyst, Operations
+Analyst, Supply Chain Analyst, Product Analyst, Insights Analyst, Reporting
+Analyst, Forecasting Analyst, Marketing Analytics, Customer Insights Analyst
+
+Also open to: management consulting, strategy, operations leadership,
+data-driven marketing strategy, customer segmentation and insights roles.
+Not interested in: pure brand/campaign marketing, B2B sales roles.
+
+Technical and analytics tools: Python, SQL, R, RStudio, Power BI, DAX, Power
+Query, Tableau, Excel advanced, VBA, Pandas, Matplotlib, Seaborn, SciPy,
+scikit-learn, GitHub, relational database design, ERD, schema design, SAP
+
+Analytics and modelling: data cleaning, preprocessing, feature engineering,
+predictive modelling, machine learning, supervised and unsupervised learning,
+classification, clustering, customer segmentation, ensemble methods, random
+forest, gradient boosting, regression, cross-validation, hypothesis testing,
+statistical modelling, forecasting, time-series analysis, scenario analysis,
+risk analysis, demand forecasting, KPI tracking, cost-to-serve analysis,
+dashboard design, data visualisation, agile project management
+
+Operations, supply chain, and process improvement: warehouse operations,
+logistics strategy, inventory accuracy, on-time delivery, supplier evaluation,
+contract renewal, process controls, workflow redesign, automation, capacity
+planning, HSE and quality audit, budget forecasting, lean methodology,
+integrated work systems
+
+Business, strategy, and product skills: strategic thinking, structured problem
+solving, business case development, commercial analysis, market research,
+competitor research, consumer insights, product performance monitoring,
+go-to-market support, pricing strategy, portfolio strategy, client relationship
+management
+
+Leadership and communication: cross-functional collaboration, stakeholder
+engagement, executive reporting, team leadership, training, mentoring,
+multicultural teamwork, presentation skills, bilingual English and Spanish
+
+Experience: Seven years at Procter & Gamble across logistics, warehouse
+management, and project leadership, delivering USD 1.2M in net savings and
+contributing to a USD 200M organisational redesign across Latin America.
+Managed a warehouse with a USD 7M annual budget and 40+ direct employees.
+
+Education: Master of Business Analytics, Macquarie University (Jul 2024 - Jul
+2026, Conferred). Bachelor's degree in Industrial Engineering, Universidad
+Catolica de Chile.
