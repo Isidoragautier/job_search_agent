@@ -3,7 +3,7 @@ name: run main.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 8 * * *' # test run - 3:58 PM Sydney
+    - cron: '20 9 * * *' # test run - 3:58 PM Sydney
 
 jobs:
   build:
