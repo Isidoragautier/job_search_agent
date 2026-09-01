@@ -10,3 +10,7 @@
 2026-08-31 17:07:35,720 - __main__ - INFO - Jobs after location filter: 44
 2026-08-31 17:07:37,021 - __main__ - INFO - Email sent successfully
 2026-08-31 17:07:37,021 - __main__ - INFO - Sent 2 new matches
+2026-09-01 14:12:16,783 - __main__ - INFO - Total unique jobs collected: 67
+2026-09-01 14:12:16,783 - __main__ - INFO - Jobs after location filter: 47
+2026-09-01 14:12:18,265 - __main__ - INFO - Email sent successfully
+2026-09-01 14:12:18,266 - __main__ - INFO - Sent 4 new matches
