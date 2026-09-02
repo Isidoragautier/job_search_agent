@@ -28,11 +28,7 @@ SENT_JOBS_FILE = "sent_jobs.txt"
 CV_FILE = "cv.txt"
 
 SEARCH_QUERIES = [
-    "business analyst",
-    "data analyst",
-    "operations analyst",
-    "supply chain analyst",
-    "commercial analyst",
+    "analyst", "operations", "CRM", "optimization"
 ]
 
 
