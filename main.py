@@ -168,9 +168,9 @@ def score_job(job, cv_keywords):
 
 
 def is_relevant_location(job):
-    """Keep only NSW-based roles."""
+    """Keep only NSW-based roles (handles both 'NSW' and 'New South Wales' formats)."""
     text = (job.get("location", "") + " " + job.get("title", "")).lower()
-    return "nsw" in text
+    return "nsw" in text or "new south wales" in text
 
 
 def build_email_body(matches):
