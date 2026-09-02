@@ -2,53 +2,127 @@ ISIDORA GAUTIER - PROFILE FOR JOB MATCHING
 
 Location: Manly, Sydney NSW, Australia
 
-Summary: Business Analytics professional with seven years of experience leading
-data-driven logistics and operations initiatives at Procter & Gamble, and a
-Master of Business Analytics from Macquarie University (Jul 2024 - Jul 2026,
-Conferred, High Distinction average). Skilled in translating business
-requirements into structured analytics solutions.
+SUMMARY
+Business Analytics professional with seven years of experience at Procter &
+Gamble across logistics, warehouse management, and project leadership in
+Chile, plus a Master of Business Analytics from Macquarie University
+(Jul 2024 - Jul 2026, Conferred, High Distinction average). Currently
+transitioning from an operations/engineering background into business,
+data, and commercial analytics roles in the Australian market. Skilled in
+translating business requirements into structured analytics solutions
+using SQL, Power BI, Python, R, Tableau, and Excel.
 
-Target roles: Business Analyst, Data Analyst, Commercial Analyst, Operations
-Analyst, Supply Chain Analyst, Product Analyst, Insights Analyst, Reporting
-Analyst, Forecasting Analyst, Marketing Analytics, Customer Insights Analyst
+TARGET ROLES
+Business Analyst, Data Analyst, Commercial Analyst, Operations Analyst,
+Supply Chain Analyst, Insights Analyst, Product Analyst, Reporting/
+Forecasting Analyst. Also open to management consulting, strategy, and
+operations roles that use data-driven decision making.
+Open to marketing-adjacent roles focused on customer data insights or
+data-driven marketing strategy (e.g. customer segmentation, RFM analysis)
+but NOT pure brand/campaign marketing or B2B sales roles.
+Open to junior/entry-level titles while establishing local experience in
+Australia, though mid-to-senior roles matching the 7 years of experience
+are preferred when available.
 
-Also open to: management consulting, strategy, operations leadership,
-data-driven marketing strategy, customer segmentation and insights roles.
-Not interested in: pure brand/campaign marketing, B2B sales roles.
+TECHNICAL AND ANALYTICS SKILLS
+Python, SQL, R/RStudio, Power BI (DAX, Power Query), Tableau, Excel
+(advanced, VBA), Pandas, Matplotlib, Seaborn, SciPy, scikit-learn,
+GitHub, relational database design (ERD, schema design), SAP (report
+extraction, inventory/budget data).
+Data cleaning and preprocessing, feature engineering, predictive
+modelling, machine learning (supervised/unsupervised), classification
+(KNN, logistic regression), clustering (K-means++, agglomerative),
+customer segmentation, ensemble methods (random forest, gradient
+boosting, stacking), regularisation (LASSO), cross-validation, hypothesis
+testing, statistical modelling, forecasting and time-series analysis,
+regression analysis (OLS), scenario and risk analysis, demand
+forecasting, KPI tracking, cost-to-serve analysis, dashboard design and
+data visualisation, Agile project management.
 
-Technical and analytics tools: Python, SQL, R, RStudio, Power BI, DAX, Power
-Query, Tableau, Excel advanced, VBA, Pandas, Matplotlib, Seaborn, SciPy,
-scikit-learn, GitHub, relational database design, ERD, schema design, SAP
+OPERATIONS AND SUPPLY CHAIN SKILLS
+Warehouse operations, logistics strategy, inventory accuracy, on-time
+delivery, VMI/CPFR, supplier evaluation and contract renewal, process
+controls, workflow redesign, automation feasibility, capacity planning,
+HSE and quality audit readiness, budget forecasting. P&G Integrated Work
+Systems certifications: Loss Elimination, Start-up Management.
 
-Analytics and modelling: data cleaning, preprocessing, feature engineering,
-predictive modelling, machine learning, supervised and unsupervised learning,
-classification, clustering, customer segmentation, ensemble methods, random
-forest, gradient boosting, regression, cross-validation, hypothesis testing,
-statistical modelling, forecasting, time-series analysis, scenario analysis,
-risk analysis, demand forecasting, KPI tracking, cost-to-serve analysis,
-dashboard design, data visualisation, agile project management
+BUSINESS AND STRATEGY SKILLS
+Strategic thinking, structured problem solving, business case
+development, commercial analysis, market and competitor research,
+consumer insights, product performance monitoring, go-to-market support,
+pricing and promotional strategy, portfolio strategy, client relationship
+management.
 
-Operations, supply chain, and process improvement: warehouse operations,
-logistics strategy, inventory accuracy, on-time delivery, supplier evaluation,
-contract renewal, process controls, workflow redesign, automation, capacity
-planning, HSE and quality audit, budget forecasting, lean methodology,
-integrated work systems
+LEADERSHIP AND COMMUNICATION
+Cross-functional collaboration, stakeholder engagement, executive
+reporting, team leadership, training and mentoring, multicultural
+teamwork, bilingual English and Spanish.
 
-Business, strategy, and product skills: strategic thinking, structured problem
-solving, business case development, commercial analysis, market research,
-competitor research, consumer insights, product performance monitoring,
-go-to-market support, pricing strategy, portfolio strategy, client relationship
-management
+WORK EXPERIENCE
 
-Leadership and communication: cross-functional collaboration, stakeholder
-engagement, executive reporting, team leadership, training, mentoring,
-multicultural teamwork, presentation skills, bilingual English and Spanish
+Senior Project Manager | Procter & Gamble, Santiago, Chile | Jan 2023 - Jul 2024
+- Delivered 12% net savings (~USD 1.2M) in logistics costs through
+  strategic process redesign and supplier renegotiation, the best result
+  in Latin America.
+- Led a large-scale organisational redesign of operations and contract
+  structures across Latin America, contributing to USD 200M in total
+  savings and record employee engagement scores.
+- Developed and drove a 3-year logistics innovation roadmap for Chile,
+  introducing automation and robotics technologies projected to deliver
+  USD 2M in savings.
+- Accelerated a warehouse expansion project increasing capacity by 30%,
+  saving USD 200K, achieving 97% on-time delivery.
+- Led the logistics operator contract renewal process end to end: bidding,
+  supplier evaluation, selection, and onboarding.
+- Coached a team of 20 employees through a Simplification & Automation
+  Pillar, delivering 3 automation projects and reducing manual workload
+  by 10 hours/week.
+- Built a 3-year forecast model for case and pallet movement volumes
+  using historical WMS and SAP data to plan warehouse capacity.
+- Rebuilt a third-party warehouse contract from the ground up with newly
+  defined KPIs tied to cost and commercial impact; within 12 months,
+  nearly all KPIs reached target.
 
-Experience: Seven years at Procter & Gamble across logistics, warehouse
-management, and project leadership, delivering USD 1.2M in net savings and
-contributing to a USD 200M organisational redesign across Latin America.
-Managed a warehouse with a USD 7M annual budget and 40+ direct employees.
+Senior Warehouse Manager (ODM) | Procter & Gamble, Santiago, Chile | May 2021 - Jan 2023
+- Led the only P&G warehouse in Chile: USD 7M annual budget, 40+ direct
+  employees, ~150 third-party workers.
+- Conducted budget forecasting beyond managing the existing budget, to
+  support proactive financial planning.
+- Directed end-to-end warehouse operations: throughput, inventory
+  accuracy, productivity, safety, compliance, quality, on-time delivery.
+- Prepared the warehouse for a global HSE and quality audit within 2
+  months, achieving a full pass with zero major findings.
+- Introduced inventory process controls reducing stock discrepancies by
+  5% and achieved 9 consecutive months without a safety incident.
+- Took ownership of returns and refusals for FEMSA (P&G Chile's
+  second-largest client), reducing costs by 5% and cutting customer
+  payment days from 20 to 7.
+- Self-taught Power BI during early adoption and built dashboards that
+  improved the focus and efficiency of major account reviews.
 
-Education: Master of Business Analytics, Macquarie University (Jul 2024 - Jul
-2026, Conferred). Bachelor's degree in Industrial Engineering, Universidad
-Catolica de Chile.
+Additional Australian experience: hospitality role at a Sydney hotel
+(Steyne Hotel), positioned as extracurricular/local Australian experience
+rather than core professional background.
+
+EDUCATION
+Master of Business Analytics | Macquarie University | Jul 2024 - Jul 2026
+(Conferred, High Distinction average). Capstone: Electricity Procurement
+Strategy Optimisation (NEM wholesale market, Monte Carlo simulation,
+battery storage optimisation, scenario modelling in Python), presented
+directly to external industry reviewers.
+
+Bachelor's degree, Industrial Engineering | Universidad Catolica de Chile
+
+KEY ACADEMIC PROJECTS (illustrative of applied skills)
+- Predictive modelling and machine learning: customer churn prediction,
+  Random Forest and regression models, Kaggle-style leaderboard
+  submission, LASSO/Random Forest/Gradient Boosting model comparison.
+- Relational database design and SQL: designed a normalised database from
+  scratch (ERD, schema), wrote multi-table SQL queries for business
+  analysis (resource utilisation, revenue, customer retention).
+- Regression and predictive modelling in Python (scikit-learn): OLS
+  regression, multicollinearity diagnosis, Random Forest sales
+  prediction, logistic regression for churn.
+- Digital transformation strategy: Design Thinking, Agile delivery
+  planning, stakeholder and change management (EdTech/inclusive
+  education context).
