@@ -45,3 +45,68 @@
 2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | E0I -AI Data Scientists- All Levels | score=1
 2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Social Media Marketing Manager - BIG W | score=1
 2026-09-02 09:36:42,068 - __main__ - INFO - No new matching jobs today
+2026-09-02 09:48:10,730 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-09-02 09:48:11,116 - __main__ - INFO - Amazon query 'operations' returned 20 raw jobs
+2026-09-02 09:48:11,805 - __main__ - INFO - Amazon query 'CRM' returned 16 raw jobs
+2026-09-02 09:48:12,505 - __main__ - INFO - Amazon query 'optimization' returned 20 raw jobs
+2026-09-02 09:48:15,969 - __main__ - INFO - Woolworths search 'analyst' found 16 raw jobs
+2026-09-02 09:48:19,786 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-02 09:48:23,120 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-09-02 09:48:26,746 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-02 09:48:30,153 - __main__ - INFO - Woolworths search 'data' found 13 raw jobs
+2026-09-02 09:48:30,154 - __main__ - INFO - Woolworths returned 71 raw jobs total (deduplicated)
+2026-09-02 09:48:30,154 - __main__ - INFO - Total unique jobs collected (Amazon + Woolworths): 130
+2026-09-02 09:48:30,154 - __main__ - INFO - Jobs after location filter: 87
+2026-09-02 09:48:30,154 - __main__ - INFO -   -> Amazon: 42, Woolworths: 45
+2026-09-02 09:48:30,154 - __main__ - INFO -   Amazon | Operations Analyst, RI Operations | score=2
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | 2026 Graduate Brand Analyst, Amazon Vendor Services | score=5
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Systems Engineer | score=2
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Operations Supervisor , Amazon Logistics | score=3
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Workplace Health and Safety Coordinator  | score=4
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Technical Infrastructure Program Manager, Global Network Delivery | score=6
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Senior Operations Program Manager - Amazon Devices, Devices Global Logistics | score=6
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | Datacenter IT Technician Trainee (6 months), Data Centre Operations, Sydney  | score=4
+2026-09-02 09:48:30,155 - __main__ - INFO -   Amazon | TIPM, Network Delivery, Data Center Capacity Delivery, BaND Network Delivery, Data Center Capacity Delivery | score=6
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Operations Shift Manager - Air Cargo, Aviation Security  | score=2
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Principal Consultant - Customer Experience (CX), Technology and Industries | score=7
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Migration Specialist, ANZ Modernisation Team | score=5
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Business Contracts Manager , APJ BCM team | score=3
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Software Development Engineer, Internet Edge Services | score=6
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Sr. Structural Manager , GES International Design and Construction | score=2
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Learning Coordinator | score=7
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Account Executive, WW Growth Sales | score=7
+2026-09-02 09:48:30,156 - __main__ - INFO -   Amazon | Cloud Sales Representative, ISV , Amazon Web Services | score=1
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Senior Delivery Consultant - Amazon Connect, AWS Professional Services | score=6
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Technical Business Developer, AWS Well-Architected Solutions Innovation | score=7
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Demand Generation Sales Leader, Growth team | score=6
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Business Operations for Security Incident Response (SIR) , Enterprise Support Strategy & Operations (ESSO), Enterprise Support Strategy & Operations (ESSO) | score=6
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Customer Enablement Specialist, AWS WWPS | score=5
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Sr Business Operations Manager, Field Tech Operations, Field Tech Operations | score=5
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Sourcing Recruiter, Talent Acquisition  | score=4
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Sourcing Recruiter, Talent Acquisition  | score=4
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Recruiter, Talent Acquisition  | score=4
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Delivery Consultant - Amazon Connect, AWS Professional Services | score=7
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Senior Applied AI Solutions Architect, Amazon Connect, AWS, AWS Applied AI Solutions | score=3
+2026-09-02 09:48:30,157 - __main__ - INFO -   Amazon | Senior Applied AI Solutions Architect, Amazon Connect, AWS, AWS Applied AI Solutions | score=3
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Senior Data Center Design Manager, Data Center Engineering | score=6
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Sr AI Solution Architect, AI Specialist Solutions Architect team | score=4
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Product/Program Manager - Returns Customer Experience CX | score=6
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Regional Project Design Controls Engineer - APJC, Fleet Remediation Engineering | score=8
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Senior Strategy & Product Manager, Cost To Serve | score=8
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Data Scientist | score=5
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Senior Construction Manager, Data Centre Capacity Delivery | score=6
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Network Development Engineer, MONA | score=6
+2026-09-02 09:48:30,158 - __main__ - INFO -   Amazon | Software Development Graduate, AWS, 2027 Sydney | score=4
+2026-09-02 09:48:30,159 - __main__ - INFO -   Amazon | Network Development Manager, GCNA Border Network, GCNA-D | score=2
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Merchandising Optimisation Analyst | score=2
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Range Optimisation Analyst | score=2
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Expression of Interest- Data Science | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Designer Kidswear - Big W | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Assistant Cat Manager - Blocks (Confec) | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Head of Supplementary Sourcing & Trading | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Social Media Marketing Manager - BIG W | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | E0I -AI Data Scientists- All Levels | score=1
+2026-09-02 09:48:30,159 - __main__ - INFO -   Woolworths | Stocktake Assistant - Metro Sydney | score=1
+2026-09-02 09:48:30,160 - __main__ - INFO -   Woolworths | Pallet Control Administrator | score=2
+2026-09-02 09:48:31,819 - __main__ - INFO - Email sent successfully
+2026-09-02 09:48:31,819 - __main__ - INFO - Sent 34 new matches
