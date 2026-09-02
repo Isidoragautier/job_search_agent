@@ -103,6 +103,7 @@ def fetch_woolworths_jobs(max_pages_per_query=3):
 
     jobs = {}
     for term in search_terms:
+        term_found = 0
         for page in range(max_pages_per_query):
             offset = page * 6
             params = {"search": term, "jobOffset": offset}
@@ -146,6 +147,8 @@ def fetch_woolworths_jobs(max_pages_per_query=3):
                     "url": href if href.startswith("http") else f"https://careers.woolworthsgroup.com.au{href}",
                     "source": "Woolworths",
                 }
+                term_found += 1
+        logger.info(f"Woolworths search '{term}' found {term_found} raw jobs")
 
     return list(jobs.values())
 
@@ -163,6 +166,12 @@ def score_job(job, cv_keywords):
     for term in bonus_terms:
         if term in text or term in location_text:
             score += 3
+
+    # Strong title match for Woolworths specifically (per insider recommendation)
+    if job.get("source") == "Woolworths":
+        title_lower = job.get("title", "").lower()
+        if "insights analyst" in title_lower or "commercial analyst" in title_lower:
+            score += 8
 
     return score
 
@@ -204,14 +213,21 @@ if __name__ == "__main__":
 
     all_jobs = {}
 
+    amazon_raw = []
     for query in SEARCH_QUERIES:
-        for job in fetch_amazon_jobs(query):
-            all_jobs[job["id"]] = job
+        jobs = fetch_amazon_jobs(query)
+        logger.info(f"Amazon query '{query}' returned {len(jobs)} raw jobs")
+        amazon_raw.extend(jobs)
 
-    for job in fetch_woolworths_jobs():
+    woolworths_raw = fetch_woolworths_jobs()
+    logger.info(f"Woolworths returned {len(woolworths_raw)} raw jobs total (deduplicated)")
+
+    for job in amazon_raw:
+        all_jobs[job["id"]] = job
+    for job in woolworths_raw:
         all_jobs[job["id"]] = job
 
-    logger.info(f"Total unique jobs collected: {len(all_jobs)}")
+    logger.info(f"Total unique jobs collected (Amazon + Woolworths): {len(all_jobs)}")
 
     all_jobs = {job_id: job for job_id, job in all_jobs.items() if is_relevant_location(job)}
     logger.info(f"Jobs after location filter: {len(all_jobs)}")
