@@ -216,11 +216,16 @@ if __name__ == "__main__":
     all_jobs = {job_id: job for job_id, job in all_jobs.items() if is_relevant_location(job)}
     logger.info(f"Jobs after location filter: {len(all_jobs)}")
 
+    amazon_count = sum(1 for j in all_jobs.values() if j["source"] == "Amazon")
+    woolworths_count = sum(1 for j in all_jobs.values() if j["source"] == "Woolworths")
+    logger.info(f"  -> Amazon: {amazon_count}, Woolworths: {woolworths_count}")
+
     new_matches = []
     for job_id, job in all_jobs.items():
         if job_id in sent_jobs:
             continue
         score = score_job(job, cv_keywords)
+        logger.info(f"  {job['source']} | {job['title']} | score={score}")
         if score >= 3:
             new_matches.append((job, score))
 
