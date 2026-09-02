@@ -18,3 +18,30 @@
 2026-09-02 08:58:16,445 - __main__ - INFO - Jobs after location filter: 47
 2026-09-02 08:58:17,909 - __main__ - INFO - Email sent successfully
 2026-09-02 08:58:17,909 - __main__ - INFO - Sent 2 new matches
+2026-09-02 09:36:22,966 - __main__ - INFO - Amazon query 'business analyst' returned 1 raw jobs
+2026-09-02 09:36:23,227 - __main__ - INFO - Amazon query 'data analyst' returned 0 raw jobs
+2026-09-02 09:36:23,517 - __main__ - INFO - Amazon query 'operations analyst' returned 2 raw jobs
+2026-09-02 09:36:23,777 - __main__ - INFO - Amazon query 'supply chain analyst' returned 0 raw jobs
+2026-09-02 09:36:24,422 - __main__ - INFO - Amazon query 'commercial analyst' returned 1 raw jobs
+2026-09-02 09:36:27,762 - __main__ - INFO - Woolworths search 'analyst' found 16 raw jobs
+2026-09-02 09:36:31,228 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-02 09:36:34,520 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-09-02 09:36:38,449 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-02 09:36:42,065 - __main__ - INFO - Woolworths search 'data' found 13 raw jobs
+2026-09-02 09:36:42,067 - __main__ - INFO - Woolworths returned 71 raw jobs total (deduplicated)
+2026-09-02 09:36:42,067 - __main__ - INFO - Total unique jobs collected (Amazon + Woolworths): 74
+2026-09-02 09:36:42,067 - __main__ - INFO - Jobs after location filter: 48
+2026-09-02 09:36:42,067 - __main__ - INFO -   -> Amazon: 3, Woolworths: 45
+2026-09-02 09:36:42,067 - __main__ - INFO -   Amazon | Operations Analyst, RI Operations | score=2
+2026-09-02 09:36:42,067 - __main__ - INFO -   Woolworths | Merchandising Optimisation Analyst | score=2
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Range Optimisation Analyst | score=2
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Expression of Interest- Data Science | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Designer Kidswear - Big W | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Assistant Cat Manager - Blocks (Confec) | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Head of Supplementary Sourcing & Trading | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Category Manager - Chips | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Stocktake Assistant - Metro Sydney | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Pallet Control Administrator | score=2
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | E0I -AI Data Scientists- All Levels | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO -   Woolworths | Social Media Marketing Manager - BIG W | score=1
+2026-09-02 09:36:42,068 - __main__ - INFO - No new matching jobs today
