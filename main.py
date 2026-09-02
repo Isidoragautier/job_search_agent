@@ -1,3 +1,4 @@
+import json
 import logging
 import logging.handlers
 import os
@@ -23,22 +24,24 @@ logger.addHandler(logging.StreamHandler())
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 TO_EMAIL = os.environ.get("EMAIL_ADDRESS")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 SENT_JOBS_FILE = "sent_jobs.txt"
 CV_FILE = "cv.txt"
 
-SEARCH_QUERIES = [
-    "analyst", "operations", "CRM", "optimization"
-]
+SEARCH_QUERIES = ["analyst"]
 
 
-def load_cv_keywords():
+def load_cv_text():
     if not os.path.exists(CV_FILE):
-        logger.warning("cv.txt not found, using empty keyword set")
-        return set()
+        logger.warning("cv.txt not found")
+        return ""
     with open(CV_FILE, "r", encoding="utf-8") as f:
-        text = f.read().lower()
-    return set(re.findall(r"[a-zA-Z]{4,}", text))
+        return f.read()
+
+
+def load_cv_keywords(cv_text):
+    return set(re.findall(r"[a-zA-Z]{4,}", cv_text.lower()))
 
 
 def load_sent_jobs():
@@ -149,41 +152,129 @@ def fetch_woolworths_jobs(max_pages_per_query=3):
     return list(jobs.values())
 
 
-def score_job(job, cv_keywords):
-    text = (job.get("title", "") + " " + job.get("description_short", "")).lower()
-    job_words = set(re.findall(r"[a-zA-Z]{4,}", text))
-    score = len(job_words & cv_keywords)
-
-    location_text = job.get("location", "").lower()
-    if "surry hills" in location_text:
-        score += 5  # strong bonus: Woolworths Group HQ / corporate hub
-
-    bonus_terms = ["cartology", "woolworths group", "ecommerce", "e-commerce"]
-    for term in bonus_terms:
-        if term in text or term in location_text:
-            score += 3
-
-    # Strong title match for Woolworths specifically (per insider recommendation)
-    if job.get("source") == "Woolworths":
-        title_lower = job.get("title", "").lower()
-        if "insights analyst" in title_lower or "commercial analyst" in title_lower:
-            score += 8
-
-    return score
-
-
 def is_relevant_location(job):
     """Keep only NSW-based roles (handles both 'NSW' and 'New South Wales' formats)."""
     text = (job.get("location", "") + " " + job.get("title", "")).lower()
     return "nsw" in text or "new south wales" in text
 
 
-def build_email_body(matches):
-    lines = ["Here are today's job matches:\n"]
-    for job, score in matches:
-        lines.append(
-            f"- [{job['source']}] {job['title']} | {job.get('location', '')} | fit score: {score}\n  {job['url']}\n"
-        )
+def keyword_score(job, cv_keywords):
+    """Fallback scoring, used only if Claude API is unavailable."""
+    text = (job.get("title", "") + " " + job.get("description_short", "")).lower()
+    job_words = set(re.findall(r"[a-zA-Z]{4,}", text))
+    score = len(job_words & cv_keywords)
+    location_text = job.get("location", "").lower()
+    if "surry hills" in location_text:
+        score += 5
+    for term in ["cartology", "woolworths group", "ecommerce", "e-commerce"]:
+        if term in text or term in location_text:
+            score += 3
+    if job.get("source") == "Woolworths" and ("insights analyst" in text or "commercial analyst" in text):
+        score += 8
+    return score
+
+
+def score_jobs_with_claude(jobs, cv_text):
+    """Batch-score all candidate jobs in a single Claude API call, multi-dimensional."""
+    if not jobs or not ANTHROPIC_API_KEY:
+        return None
+
+    job_block = "\n\n".join(
+        f"ID: {j['id']}\n"
+        f"Title: {j['title']}\n"
+        f"Source: {j['source']}\n"
+        f"Location: {j.get('location', '')}\n"
+        f"Details: {j.get('description_short', '')[:400]}"
+        for j in jobs
+    )
+
+    prompt = f"""You are screening job postings for a candidate transitioning from
+engineering/operations into business analytics. Here is their profile:
+
+{cv_text}
+
+The candidate's priorities, in order of importance:
+1. Role/function fit — is this genuinely analytics/business/operations work matching their background
+2. Industry/company type fit — retail, tech, FMCG, logistics preferred
+3. Location closeness — Sydney NSW, ideally close to Manly/North Shore
+4. Seniority fit — candidate has 7 years experience but is OPEN to junior/entry-level roles
+   while establishing themselves in the Australian market (junior = acceptable, not ideal;
+   do not penalize junior titles, but mid/senior roles matching their experience are preferred
+   when available)
+5. Growth/training signals — nice to have, lowest priority
+
+For EACH job below, return a JSON object with these fields:
+- id: the job ID
+- role_fit: 0-10, how well the actual job function matches
+- industry_fit: 0-10
+- location_fit: 0-10
+- seniority_fit: 0-10 (junior roles score fine here, not zero)
+- overall_relevant: true/false — your final call on whether to show this to the candidate
+- visa_flag: one of "none", "mentioned", "citizenship_required" —
+  flag "citizenship_required" ONLY if the posting explicitly requires Australian
+  citizenship or permanent residency with no exceptions. Use "mentioned" for anything
+  more ambiguous (e.g. "must have valid work rights", "no sponsorship available").
+- reason: one short sentence explaining the overall_relevant call
+
+EXCLUDE (overall_relevant: false) roles that are actually a different function despite
+shared vocabulary — e.g. recruiting, HR/workforce planning, warehouse/store floor roles,
+sales, unrelated fields.
+
+Return ONLY a JSON array, no other text, no markdown fences:
+[{{"id": "...", "role_fit": 0, "industry_fit": 0, "location_fit": 0, "seniority_fit": 0,
+"overall_relevant": true, "visa_flag": "none", "reason": "..."}}]
+
+Jobs:
+{job_block}
+"""
+
+    headers = {
+        "x-api-key": ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+    }
+    body = {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 4000,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    try:
+        r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=90)
+        r.raise_for_status()
+        data = r.json()
+        text = "".join(
+            block.get("text", "") for block in data.get("content", []) if block.get("type") == "text"
+        ).strip()
+        if text.startswith("```"):
+            text = text.split("```")[1]
+            if text.lower().startswith("json"):
+                text = text[4:]
+        results = json.loads(text)
+        return {item["id"]: item for item in results}
+    except Exception as e:
+        logger.error(f"Claude API scoring failed, falling back to keyword scoring: {e}")
+        return None
+
+
+def build_email_body(matches, used_claude):
+    method = "Claude AI (multi-dimensional)" if used_claude else "keyword matching"
+    lines = [f"Here are today's job matches (scored via {method}):\n"]
+    for job, info in matches:
+        lines.append(f"- [{job['source']}] {job['title']} | {job.get('location', '')}")
+        if used_claude:
+            lines.append(
+                f"  Role fit: {info.get('role_fit')}/10 | "
+                f"Industry fit: {info.get('industry_fit')}/10 | "
+                f"Location fit: {info.get('location_fit')}/10 | "
+                f"Seniority fit: {info.get('seniority_fit')}/10"
+            )
+            if info.get("visa_flag") == "mentioned":
+                lines.append("  ⚠ Visa/work-rights language mentioned — check posting")
+            lines.append(f"  Why: {info.get('reason', '')}")
+        else:
+            lines.append(f"  Score: {info.get('score')}")
+        lines.append(f"  {job['url']}\n")
     return "\n".join(lines)
 
 
@@ -204,11 +295,11 @@ def send_email(subject, body):
 
 
 if __name__ == "__main__":
-    cv_keywords = load_cv_keywords()
+    cv_text = load_cv_text()
+    cv_keywords = load_cv_keywords(cv_text)
     sent_jobs = load_sent_jobs()
 
     all_jobs = {}
-
     amazon_raw = []
     for query in SEARCH_QUERIES:
         jobs = fetch_amazon_jobs(query)
@@ -223,30 +314,45 @@ if __name__ == "__main__":
     for job in woolworths_raw:
         all_jobs[job["id"]] = job
 
-    logger.info(f"Total unique jobs collected (Amazon + Woolworths): {len(all_jobs)}")
+    logger.info(f"Total unique jobs collected: {len(all_jobs)}")
 
-    all_jobs = {job_id: job for job_id, job in all_jobs.items() if is_relevant_location(job)}
+    all_jobs = {jid: j for jid, j in all_jobs.items() if is_relevant_location(j)}
     logger.info(f"Jobs after location filter: {len(all_jobs)}")
 
-    amazon_count = sum(1 for j in all_jobs.values() if j["source"] == "Amazon")
-    woolworths_count = sum(1 for j in all_jobs.values() if j["source"] == "Woolworths")
-    logger.info(f"  -> Amazon: {amazon_count}, Woolworths: {woolworths_count}")
+    candidates = [j for jid, j in all_jobs.items() if jid not in sent_jobs]
+    logger.info(f"New candidates (not previously sent): {len(candidates)}")
+
+    claude_results = score_jobs_with_claude(candidates, cv_text)
+    used_claude = claude_results is not None
 
     new_matches = []
-    for job_id, job in all_jobs.items():
-        if job_id in sent_jobs:
-            continue
-        score = score_job(job, cv_keywords)
-        logger.info(f"  {job['source']} | {job['title']} | score={score}")
-        if score >= 3:
-            new_matches.append((job, score))
+    if used_claude:
+        for job in candidates:
+            info = claude_results.get(job["id"])
+            if not info:
+                continue
+            if info.get("visa_flag") == "citizenship_required":
+                logger.info(f"  [Excluded - citizenship required] {job['title']}")
+                continue
+            if info.get("overall_relevant"):
+                new_matches.append((job, info))
+                logger.info(f"  [Claude] {job['source']} | {job['title']} | {info}")
+    else:
+        for job in candidates:
+            score = keyword_score(job, cv_keywords)
+            logger.info(f"  [Keyword] {job['source']} | {job['title']} | score={score}")
+            if score >= 3:
+                new_matches.append((job, {"score": score}))
 
-    new_matches.sort(key=lambda x: x[1], reverse=True)
+    if used_claude:
+        new_matches.sort(key=lambda x: x[1].get("role_fit", 0), reverse=True)
+    else:
+        new_matches.sort(key=lambda x: x[1].get("score", 0), reverse=True)
 
     if new_matches:
-        body = build_email_body(new_matches)
+        body = build_email_body(new_matches, used_claude)
         send_email(f"Job matches for today ({len(new_matches)} found)", body)
         save_sent_jobs([job["id"] for job, _ in new_matches])
-        logger.info(f"Sent {len(new_matches)} new matches")
+        logger.info(f"Sent {len(new_matches)} new matches (method: {'Claude' if used_claude else 'keyword'})")
     else:
         logger.info("No new matching jobs today")
