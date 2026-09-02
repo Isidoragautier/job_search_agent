@@ -110,3 +110,20 @@
 2026-09-02 09:48:30,160 - __main__ - INFO -   Woolworths | Pallet Control Administrator | score=2
 2026-09-02 09:48:31,819 - __main__ - INFO - Email sent successfully
 2026-09-02 09:48:31,819 - __main__ - INFO - Sent 34 new matches
+2026-09-02 12:16:51,079 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-09-02 12:16:54,357 - __main__ - INFO - Woolworths search 'analyst' found 16 raw jobs
+2026-09-02 12:16:57,905 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-02 12:17:01,182 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-09-02 12:17:04,795 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-02 12:17:08,298 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-09-02 12:17:08,299 - __main__ - INFO - Woolworths returned 67 raw jobs total (deduplicated)
+2026-09-02 12:17:08,300 - __main__ - INFO - Total unique jobs collected: 74
+2026-09-02 12:17:08,300 - __main__ - INFO - Jobs after location filter: 47
+2026-09-02 12:17:08,300 - __main__ - INFO - New candidates (not previously sent): 11
+2026-09-02 12:17:16,664 - __main__ - INFO -   [Claude] Amazon | Operations Analyst, RI Operations | {'id': 'amazon_d77ca318-c407-48b8-8cd9-985e158d15df', 'role_fit': 8, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'mentioned', 'reason': 'Strong operations analytics match with AWS Sydney location; cloud/tech industry fit is solid, though not her preferred FMCG/retail sector.'}
+2026-09-02 12:17:16,664 - __main__ - INFO -   [Claude] Woolworths | Merchandising Optimisation Analyst | {'id': 'woolworths_97591', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Excellent commercial analytics fit (pricing, promotional strategy, portfolio optimisation); retail/FMCG preferred industry; NSW location near candidate.'}
+2026-09-02 12:17:16,665 - __main__ - INFO -   [Claude] Woolworths | Range Optimisation Analyst | {'id': 'woolworths_97590', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Strong match for commercial/product analytics role; retail FMCG preferred industry; NSW location; portfolio strategy and customer insights directly relevant.'}
+2026-09-02 12:17:16,665 - __main__ - INFO -   [Claude] Woolworths | Expression of Interest- Data Science | {'id': 'woolworths_99373', 'role_fit': 9, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Excellent fit; data science EOI aligns with candidate's ML, Python, statistical modelling skills and MBA analytics background."}
+2026-09-02 12:17:16,665 - __main__ - INFO -   [Claude] Woolworths | E0I -AI Data Scientists- All Levels | {'id': 'woolworths_99379', 'role_fit': 9, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Excellent fit; AI/Data Science EOI across all levels matches candidate's Python, ML, scikit-learn, and MBA analytics capstone expertise."}
+2026-09-02 12:17:18,281 - __main__ - INFO - Email sent successfully
+2026-09-02 12:17:18,282 - __main__ - INFO - Sent 5 new matches (method: Claude)
