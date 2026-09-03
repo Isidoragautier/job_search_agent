@@ -141,3 +141,18 @@
 2026-09-02 13:44:26,916 - __main__ - INFO -   [Claude] Woolworths | Category Manager - Chips | {'id': 'woolworths_104923', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 4, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Category Manager role typically involves commercial analysis, pricing strategy, promotional insights, and performance monitoring—aligned with candidate's P&G commercial and analytical experience in FMCG."}
 2026-09-02 13:44:27,873 - __main__ - INFO - Email sent successfully
 2026-09-02 13:44:27,874 - __main__ - INFO - Sent 2 new matches (method: Claude)
+2026-09-03 13:39:35,110 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-09-03 13:39:38,570 - __main__ - INFO - Woolworths search 'analyst' found 16 raw jobs
+2026-09-03 13:39:41,974 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-03 13:39:45,026 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-09-03 13:39:48,755 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-03 13:39:52,289 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-09-03 13:39:52,290 - __main__ - INFO - Woolworths returned 65 raw jobs total (deduplicated)
+2026-09-03 13:39:52,290 - __main__ - INFO - Total unique jobs collected: 72
+2026-09-03 13:39:52,290 - __main__ - INFO - Jobs after location filter: 49
+2026-09-03 13:39:52,290 - __main__ - INFO - New candidates (not previously sent): 10
+2026-09-03 13:40:03,064 - __main__ - INFO -   [Claude] Woolworths | Merchandise Planner - Apparel | {'id': 'woolworths_101288', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 7, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Merchandise Planner blends demand forecasting, inventory analytics, and supply chain optimization—strong fit for candidate's supply chain analytics and forecasting expertise."}
+2026-09-03 13:40:03,065 - __main__ - INFO -   [Claude] Woolworths | Data Risk Steward | {'id': 'woolworths_102823', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 7, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Data Risk Steward is a data governance/analytics role requiring data quality, compliance, and analytics foundation; solid match for candidate's SQL, database design, and data governance interests."}
+2026-09-03 13:40:03,065 - __main__ - INFO -   [Claude] Woolworths | Snr Manager Analytics Transformation | {'id': 'woolworths_102366', 'role_fit': 9, 'industry_fit': 9, 'location_fit': 7, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Senior Manager Analytics Transformation is a perfect role match—senior-level analytics leadership, digital transformation, and supply chain/operations analytics aligned with candidate's 7 years and Master's in Business Analytics."}
+2026-09-03 13:40:04,257 - __main__ - INFO - Email sent successfully
+2026-09-03 13:40:04,257 - __main__ - INFO - Sent 3 new matches (method: Claude)
