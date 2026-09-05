@@ -167,3 +167,22 @@
 2026-09-04 13:36:15,787 - __main__ - INFO - Jobs after location filter: 46
 2026-09-04 13:36:15,787 - __main__ - INFO - New candidates (not previously sent): 8
 2026-09-04 13:36:20,756 - __main__ - INFO - No new matching jobs today
+2026-09-05 12:49:20,913 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-09-05 12:49:24,336 - __main__ - INFO - Woolworths search 'analyst' found 15 raw jobs
+2026-09-05 12:49:27,687 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-05 12:49:31,776 - __main__ - INFO - Woolworths search 'ecommerce' found 10 raw jobs
+2026-09-05 12:49:35,248 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-09-05 12:49:38,715 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-09-05 12:49:38,716 - __main__ - INFO - Woolworths returned 68 raw jobs total (deduplicated)
+2026-09-05 12:49:38,717 - __main__ - INFO - Total unique jobs collected: 75
+2026-09-05 12:49:38,717 - __main__ - INFO - Jobs after location filter: 52
+2026-09-05 12:49:38,717 - __main__ - INFO - New candidates (not previously sent): 12
+2026-09-05 12:49:50,578 - __main__ - INFO -   [Claude] Woolworths | Ecommerce Cateogry Manager- Marketplace | {'id': 'woolworths_99923', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 7, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Category manager with marketplace focus offers commercial analysis and data-driven product strategy alignment with candidate's analytics + commercial background."}
+2026-09-05 12:49:50,578 - __main__ - INFO -   [Claude] Woolworths | Category Manager Beauty - Healthylife | {'id': 'woolworths_98150', 'role_fit': 5, 'industry_fit': 8, 'location_fit': 7, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Category manager role combines commercial strategy with portfolio/product performance analysis, aligning with candidate's commercial analytics and business skills."}
+2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Assistant Cat Manager - Blocks (Confec) | {'id': 'woolworths_106622', 'role_fit': 5, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Assistant category manager role offers entry-to-mid level commercial analysis and product insights work suitable for candidate's transition into Australian market."}
+2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Assistant Category Manager - Drinks | {'id': 'woolworths_102431', 'role_fit': 5, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Assistant category manager role provides data-informed commercial decision-making and category performance analysis aligned with candidate's background."}
+2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Assistant Category Manager - Beauty | {'id': 'woolworths_102296', 'role_fit': 5, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Assistant category manager role in beauty combines commercial strategy and insights work fitting candidate's analytics and operations expertise."}
+2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Commercial Manager | {'id': 'woolworths_98488', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 7, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Commercial manager role offers strategy, market analysis, and data-driven business decisions matching candidate's commercial analytics and strategic planning experience."}
+2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Commercial Manager - International & B2B | {'id': 'woolworths_102195', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Commercial manager role in international/B2B domain combines commercial analysis, strategy, and business development aligned with candidate's operations and analytics background."}
+2026-09-05 12:49:51,617 - __main__ - INFO - Email sent successfully
+2026-09-05 12:49:51,617 - __main__ - INFO - Sent 7 new matches (method: Claude)
