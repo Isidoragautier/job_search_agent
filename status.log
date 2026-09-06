@@ -186,3 +186,16 @@
 2026-09-05 12:49:50,579 - __main__ - INFO -   [Claude] Woolworths | Commercial Manager - International & B2B | {'id': 'woolworths_102195', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Commercial manager role in international/B2B domain combines commercial analysis, strategy, and business development aligned with candidate's operations and analytics background."}
 2026-09-05 12:49:51,617 - __main__ - INFO - Email sent successfully
 2026-09-05 12:49:51,617 - __main__ - INFO - Sent 7 new matches (method: Claude)
+2026-09-06 12:56:01,618 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-09-06 12:56:05,013 - __main__ - INFO - Woolworths search 'analyst' found 15 raw jobs
+2026-09-06 12:56:08,355 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-06 12:56:11,580 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-09-06 12:56:15,186 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-06 12:56:18,727 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-09-06 12:56:18,728 - __main__ - INFO - Woolworths returned 66 raw jobs total (deduplicated)
+2026-09-06 12:56:18,728 - __main__ - INFO - Total unique jobs collected: 73
+2026-09-06 12:56:18,729 - __main__ - INFO - Jobs after location filter: 51
+2026-09-06 12:56:18,729 - __main__ - INFO - New candidates (not previously sent): 8
+2026-09-06 12:56:24,378 - __main__ - INFO -   [Claude] Woolworths | Buyer - Own Brand (Non-Food) | {'id': 'woolworths_103450', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 6, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Buyer role leverages commercial analysis, data-driven decision-making, and supplier/pricing strategy skills from P&G background.'}
+2026-09-06 12:56:25,331 - __main__ - INFO - Email sent successfully
+2026-09-06 12:56:25,331 - __main__ - INFO - Sent 1 new matches (method: Claude)
