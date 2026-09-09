@@ -29,7 +29,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 SENT_JOBS_FILE = "sent_jobs.txt"
 CV_FILE = "cv.txt"
 
-SEARCH_QUERIES = ["analyst"]
+SEARCH_QUERIES = ["analyst", "planner", "planning", "marketing", "insights"]
 
 
 def load_cv_text():
@@ -98,7 +98,10 @@ def fetch_woolworths_jobs(max_pages_per_query=3):
     """Search Woolworths careers by keyword (site returns 6 results per page)."""
     base_url = "https://careers.woolworthsgroup.com.au/en_GB/apply/search-jobs"
     headers = {"User-Agent": "Mozilla/5.0"}
-    search_terms = ["analyst", "cartology", "ecommerce", "commercial", "data"]
+    search_terms = [
+        "analyst", "cartology", "ecommerce", "commercial", "data",
+        "planner", "planning", "marketing", "crm", "insights",
+    ]
 
     jobs = {}
     for term in search_terms:
@@ -194,7 +197,9 @@ engineering/operations into business analytics. Here is their profile:
 {cv_text}
 
 The candidate's priorities, in order of importance:
-1. Role/function fit — is this genuinely analytics/business/operations work matching their background
+1. Role/function fit — is this genuinely relevant work matching their background and
+   stated target roles (including CRM, marketing analytics, and planning roles, not
+   just titles containing the word "analyst")
 2. Industry/company type fit — retail, tech, FMCG, logistics preferred
 3. Location closeness — Sydney NSW, ideally close to Manly/North Shore
 4. Seniority fit — candidate has 7 years experience but is OPEN to junior/entry-level roles
@@ -202,6 +207,11 @@ The candidate's priorities, in order of importance:
    do not penalize junior titles, but mid/senior roles matching their experience are preferred
    when available)
 5. Growth/training signals — nice to have, lowest priority
+
+Judge each job on genuine fit to the candidate's actual skills and experience, not just
+whether the title contains a specific keyword. A "Demand Planner", "CRM Analyst", or
+"Marketing Insights" role can be just as relevant as a "Business Analyst" role if the
+underlying work matches the candidate's background.
 
 For EACH job below, return a JSON object with these fields:
 - id: the job ID
@@ -218,7 +228,8 @@ For EACH job below, return a JSON object with these fields:
 
 EXCLUDE (overall_relevant: false) roles that are actually a different function despite
 shared vocabulary — e.g. recruiting, HR/workforce planning, warehouse/store floor roles,
-sales, unrelated fields.
+pure sales/account management, unrelated fields, or pure brand/campaign marketing
+execution (copywriting, campaign content creation).
 
 Return ONLY a JSON array, no other text, no markdown fences:
 [{{"id": "...", "role_fit": 0, "industry_fit": 0, "location_fit": 0, "seniority_fit": 0,
