@@ -306,3 +306,26 @@
 2026-09-09 13:48:20,468 - __main__ - INFO -   [Keyword] Woolworths | Senior Manager - Cyber Risk | score=8
 2026-09-09 13:48:21,661 - __main__ - INFO - Email sent successfully
 2026-09-09 13:48:21,661 - __main__ - INFO - Sent 50 new matches (method: keyword)
+2026-09-10 13:41:00,922 - __main__ - INFO - Amazon query 'analyst' returned 10 raw jobs
+2026-09-10 13:41:01,594 - __main__ - INFO - Amazon query 'planner' returned 7 raw jobs
+2026-09-10 13:41:02,151 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-10 13:41:02,573 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-10 13:41:02,992 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-10 13:41:08,388 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-09-10 13:41:12,723 - __main__ - INFO - Woolworths search 'cartology' found 18 raw jobs
+2026-09-10 13:41:17,800 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-09-10 13:41:23,568 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-10 13:41:27,391 - __main__ - INFO - Woolworths search 'data' found 6 raw jobs
+2026-09-10 13:41:31,024 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-10 13:41:34,564 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-09-10 13:41:38,178 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-09-10 13:41:40,949 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-10 13:41:44,742 - __main__ - INFO - Woolworths search 'insights' found 2 raw jobs
+2026-09-10 13:41:44,743 - __main__ - INFO - Woolworths returned 94 raw jobs total (deduplicated)
+2026-09-10 13:41:44,743 - __main__ - INFO - Total unique jobs collected: 156
+2026-09-10 13:41:44,743 - __main__ - INFO - Jobs after location filter: 91
+2026-09-10 13:41:44,743 - __main__ - INFO - New candidates (not previously sent): 12
+2026-09-10 13:41:58,159 - __main__ - INFO -   [Excluded - citizenship required] Physical SOC Analyst, AWS Security 
+2026-09-10 13:41:58,159 - __main__ - INFO -   [Claude] Amazon | Senior Business Development Manager, AWS SCE Cloud Economics | {'id': 'amazon_18822244-2a34-48da-ba65-36faaf877077', 'role_fit': 7, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Commercial analysis and business case development using quantitative methods align well with Isidora's analytics background, MBA, and 7 years of commercial project experience."}
+2026-09-10 13:41:59,422 - __main__ - INFO - Email sent successfully
+2026-09-10 13:41:59,422 - __main__ - INFO - Sent 1 new matches (method: Claude)
