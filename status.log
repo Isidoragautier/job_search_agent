@@ -329,3 +329,28 @@
 2026-09-10 13:41:58,159 - __main__ - INFO -   [Claude] Amazon | Senior Business Development Manager, AWS SCE Cloud Economics | {'id': 'amazon_18822244-2a34-48da-ba65-36faaf877077', 'role_fit': 7, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Commercial analysis and business case development using quantitative methods align well with Isidora's analytics background, MBA, and 7 years of commercial project experience."}
 2026-09-10 13:41:59,422 - __main__ - INFO - Email sent successfully
 2026-09-10 13:41:59,422 - __main__ - INFO - Sent 1 new matches (method: Claude)
+2026-09-11 13:39:16,867 - __main__ - INFO - Amazon query 'analyst' returned 10 raw jobs
+2026-09-11 13:39:17,783 - __main__ - INFO - Amazon query 'planner' returned 7 raw jobs
+2026-09-11 13:39:18,272 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-11 13:39:18,890 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-11 13:39:19,356 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-11 13:39:22,986 - __main__ - INFO - Woolworths search 'analyst' found 9 raw jobs
+2026-09-11 13:39:26,505 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-11 13:39:29,914 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-09-11 13:39:33,785 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-11 13:39:37,629 - __main__ - INFO - Woolworths search 'data' found 13 raw jobs
+2026-09-11 13:39:41,754 - __main__ - INFO - Woolworths search 'planner' found 17 raw jobs
+2026-09-11 13:39:45,616 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-09-11 13:39:49,360 - __main__ - INFO - Woolworths search 'marketing' found 10 raw jobs
+2026-09-11 13:39:52,290 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-11 13:39:56,292 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-09-11 13:39:56,293 - __main__ - INFO - Woolworths returned 103 raw jobs total (deduplicated)
+2026-09-11 13:39:56,293 - __main__ - INFO - Total unique jobs collected: 165
+2026-09-11 13:39:56,293 - __main__ - INFO - Jobs after location filter: 104
+2026-09-11 13:39:56,293 - __main__ - INFO - New candidates (not previously sent): 19
+2026-09-11 13:40:17,235 - __main__ - INFO -   [Excluded - citizenship required] Physical SOC Analyst, AWS Security 
+2026-09-11 13:40:17,235 - __main__ - INFO -   [Claude] Amazon | Customer Solutions Manager, ANZ | {'id': 'amazon_cf597dc2-e1d2-4f19-8edb-59c11f3b7297', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Customer Solutions Manager role involves business transformation and data-driven decision-making; strong alignment with commercial strategy, stakeholder engagement, and analytics-informed insight skills.'}
+2026-09-11 13:40:17,235 - __main__ - INFO -   [Claude] Woolworths | Product Developer | {'id': 'woolworths_105212', 'role_fit': 5, 'industry_fit': 9, 'location_fit': 6, 'seniority_fit': 5, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Product Developer (Commercial) role likely involves product performance monitoring, portfolio strategy, and commercial analysis; strong FMCG/retail fit and candidate's P&G commercial background aligns well."}
+2026-09-11 13:40:17,235 - __main__ - INFO -   [Claude] Woolworths | Marketing Planner | {'id': 'woolworths_106232', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 6, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Marketing Planner involves promotional strategy, pricing strategy, portfolio insights, and data-driven planning; strong alignment with commercial analytics, forecasting, and business case development skills.'}
+2026-09-11 13:40:18,651 - __main__ - INFO - Email sent successfully
+2026-09-11 13:40:18,651 - __main__ - INFO - Sent 3 new matches (method: Claude)
