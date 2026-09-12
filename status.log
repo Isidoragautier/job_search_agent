@@ -354,3 +354,27 @@
 2026-09-11 13:40:17,235 - __main__ - INFO -   [Claude] Woolworths | Marketing Planner | {'id': 'woolworths_106232', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 6, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Marketing Planner involves promotional strategy, pricing strategy, portfolio insights, and data-driven planning; strong alignment with commercial analytics, forecasting, and business case development skills.'}
 2026-09-11 13:40:18,651 - __main__ - INFO - Email sent successfully
 2026-09-11 13:40:18,651 - __main__ - INFO - Sent 3 new matches (method: Claude)
+2026-09-12 12:55:42,524 - __main__ - INFO - Amazon query 'analyst' returned 10 raw jobs
+2026-09-12 12:55:43,096 - __main__ - INFO - Amazon query 'planner' returned 7 raw jobs
+2026-09-12 12:55:43,552 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-12 12:55:43,989 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-12 12:55:44,436 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-12 12:55:47,706 - __main__ - INFO - Woolworths search 'analyst' found 8 raw jobs
+2026-09-12 12:55:50,863 - __main__ - INFO - Woolworths search 'cartology' found 16 raw jobs
+2026-09-12 12:55:54,359 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-09-12 12:55:58,026 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-12 12:56:01,536 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-09-12 12:56:05,170 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-12 12:56:08,865 - __main__ - INFO - Woolworths search 'planning' found 13 raw jobs
+2026-09-12 12:56:12,118 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-09-12 12:56:14,703 - __main__ - INFO - Woolworths search 'crm' found 1 raw jobs
+2026-09-12 12:56:18,526 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-09-12 12:56:18,527 - __main__ - INFO - Woolworths returned 96 raw jobs total (deduplicated)
+2026-09-12 12:56:18,527 - __main__ - INFO - Total unique jobs collected: 157
+2026-09-12 12:56:18,527 - __main__ - INFO - Jobs after location filter: 101
+2026-09-12 12:56:18,527 - __main__ - INFO - New candidates (not previously sent): 20
+2026-09-12 12:56:39,806 - __main__ - INFO -   [Excluded - citizenship required] Physical SOC Analyst, AWS Security 
+2026-09-12 12:56:39,807 - __main__ - INFO -   [Claude] Amazon | Finance Manager, Prime Video Finance | {'id': 'amazon_200df910-eadc-47f8-8b1d-4e3fbfe4bbb1', 'role_fit': 6, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Finance manager role leverages candidate's strategic, analytical, and business case skills; finance-strategy intersection aligns with commercial analytics background."}
+2026-09-12 12:56:39,807 - __main__ - INFO -   [Claude] Woolworths | Online Manager | {'id': 'woolworths_101536', 'role_fit': 5, 'industry_fit': 8, 'location_fit': 8, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Online manager at retailer touches operations, performance monitoring, and digital strategy; relevant to candidate's operations and analytics background."}
+2026-09-12 12:56:40,926 - __main__ - INFO - Email sent successfully
+2026-09-12 12:56:40,927 - __main__ - INFO - Sent 2 new matches (method: Claude)
