@@ -402,3 +402,27 @@
 2026-09-13 13:51:01,826 - __main__ - INFO -   [Claude] Woolworths | Team Leader - Wyong | {'id': 'woolworths_106755', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 5, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Supply chain team leader aligns with candidate's supply chain operations, logistics, and process improvement expertise from P&G."}
 2026-09-13 13:51:02,727 - __main__ - INFO - Email sent successfully
 2026-09-13 13:51:02,727 - __main__ - INFO - Sent 2 new matches (method: Claude)
+2026-09-14 15:56:09,392 - __main__ - INFO - Amazon query 'analyst' returned 9 raw jobs
+2026-09-14 15:56:09,743 - __main__ - INFO - Amazon query 'planner' returned 6 raw jobs
+2026-09-14 15:56:10,093 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-14 15:56:10,438 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-14 15:56:11,084 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-14 15:56:14,032 - __main__ - INFO - Woolworths search 'analyst' found 6 raw jobs
+2026-09-14 15:56:17,344 - __main__ - INFO - Woolworths search 'cartology' found 17 raw jobs
+2026-09-14 15:56:20,550 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-09-14 15:56:24,711 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-09-14 15:56:28,053 - __main__ - INFO - Woolworths search 'data' found 11 raw jobs
+2026-09-14 15:56:31,557 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-14 15:56:35,923 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-09-14 15:56:40,012 - __main__ - INFO - Woolworths search 'marketing' found 5 raw jobs
+2026-09-14 15:56:43,021 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-14 15:56:47,308 - __main__ - INFO - Woolworths search 'insights' found 0 raw jobs
+2026-09-14 15:56:47,309 - __main__ - INFO - Woolworths returned 91 raw jobs total (deduplicated)
+2026-09-14 15:56:47,309 - __main__ - INFO - Total unique jobs collected: 150
+2026-09-14 15:56:47,309 - __main__ - INFO - Jobs after location filter: 95
+2026-09-14 15:56:47,309 - __main__ - INFO - New candidates (not previously sent): 21
+2026-09-14 15:57:03,513 - __main__ - INFO -   [Excluded - citizenship required] Physical SOC Analyst, AWS Security 
+2026-09-14 15:57:03,513 - __main__ - INFO -   [Claude] Woolworths | Logistic Network Lead | {'id': 'woolworths_104897', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Logistics network leadership role directly aligns with candidate's 7 years P&G logistics/warehouse operations and supply chain expertise."}
+2026-09-14 15:57:03,513 - __main__ - INFO -   [Claude] Woolworths | Head of Supplementary Sourcing & Trading | {'id': 'woolworths_104865', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 7, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Sourcing and trading leadership leverages candidate's supply chain, supplier evaluation, contract negotiation, and commercial analysis skills."}
+2026-09-14 15:57:04,578 - __main__ - INFO - Email sent successfully
+2026-09-14 15:57:04,578 - __main__ - INFO - Sent 2 new matches (method: Claude)
