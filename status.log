@@ -473,3 +473,27 @@
 2026-09-16 14:15:38,023 - __main__ - INFO -   [Claude] Woolworths | Fulfilment Manager | {'id': 'woolworths_108666', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 9, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Fulfilment manager role at major distribution center aligns with warehouse operations, logistics, and KPI management expertise from P&G background.'}
 2026-09-16 14:15:39,019 - __main__ - INFO - Email sent successfully
 2026-09-16 14:15:39,020 - __main__ - INFO - Sent 3 new matches (method: Claude)
+2026-09-17 14:20:33,002 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-17 14:20:33,563 - __main__ - INFO - Amazon query 'planner' returned 6 raw jobs
+2026-09-17 14:20:33,920 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-17 14:20:34,258 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-17 14:20:34,942 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-17 14:20:38,230 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-09-17 14:20:41,440 - __main__ - INFO - Woolworths search 'cartology' found 16 raw jobs
+2026-09-17 14:20:44,706 - __main__ - INFO - Woolworths search 'ecommerce' found 8 raw jobs
+2026-09-17 14:20:48,643 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-17 14:20:53,102 - __main__ - INFO - Woolworths search 'data' found 6 raw jobs
+2026-09-17 14:20:57,121 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-17 14:21:00,538 - __main__ - INFO - Woolworths search 'planning' found 11 raw jobs
+2026-09-17 14:21:03,862 - __main__ - INFO - Woolworths search 'marketing' found 6 raw jobs
+2026-09-17 14:21:06,664 - __main__ - INFO - Woolworths search 'crm' found 1 raw jobs
+2026-09-17 14:21:10,097 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-09-17 14:21:10,098 - __main__ - INFO - Woolworths returned 97 raw jobs total (deduplicated)
+2026-09-17 14:21:10,099 - __main__ - INFO - Total unique jobs collected: 150
+2026-09-17 14:21:10,099 - __main__ - INFO - Jobs after location filter: 88
+2026-09-17 14:21:10,099 - __main__ - INFO - New candidates (not previously sent): 24
+2026-09-17 14:21:32,729 - __main__ - INFO -   [Claude] Amazon | Senior Instock Manager , Amazon APAC Instock and Supply Chain Management | {'id': 'amazon_e40535d4-84e9-4585-a4cb-a745a46eeca1', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Supply chain operations and instock management aligns directly with warehouse/logistics background and supply chain analytics skills; strong senior-level fit.'}
+2026-09-17 14:21:32,729 - __main__ - INFO -   [Claude] Woolworths | Technical Business Analyst / IT Security | {'id': 'woolworths_106440', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 6, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Technical business analyst role with IT security component; strong fit for analytics skills and Woolworths retail/FMCG industry; slight location distance from Manly.'}
+2026-09-17 14:21:32,729 - __main__ - INFO -   [Claude] Woolworths | Transformation Manager | {'id': 'woolworths_106258', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 7, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Transformation manager role in commercial division can leverage strategic thinking, process redesign, and analytics capabilities; strong industry fit with Woolworths retail operations.'}
+2026-09-17 14:21:33,904 - __main__ - INFO - Email sent successfully
+2026-09-17 14:21:33,904 - __main__ - INFO - Sent 3 new matches (method: Claude)
