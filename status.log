@@ -519,3 +519,26 @@
 2026-09-18 13:41:35,772 - __main__ - INFO -   [Claude] Amazon | Seller Growth Lead, Amazon Business, Third-Party (3P) Seller Services | {'id': 'amazon_efcaefc4-2ffe-4a18-b046-ce886412ff09', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Seller growth lead role using data analytics, purchasing insights, and commercial strategy to drive growth—strong fit for supply chain/analytics background and e-commerce context.'}
 2026-09-18 13:41:37,029 - __main__ - INFO - Email sent successfully
 2026-09-18 13:41:37,030 - __main__ - INFO - Sent 1 new matches (method: Claude)
+2026-09-19 13:13:28,246 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-19 13:13:29,061 - __main__ - INFO - Amazon query 'planner' returned 6 raw jobs
+2026-09-19 13:13:29,404 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-19 13:13:29,662 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-19 13:13:30,027 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-19 13:13:33,684 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-09-19 13:13:36,981 - __main__ - INFO - Woolworths search 'cartology' found 14 raw jobs
+2026-09-19 13:13:40,198 - __main__ - INFO - Woolworths search 'ecommerce' found 8 raw jobs
+2026-09-19 13:13:43,910 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-19 13:13:47,413 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-09-19 13:13:51,188 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-19 13:13:54,796 - __main__ - INFO - Woolworths search 'planning' found 9 raw jobs
+2026-09-19 13:13:58,426 - __main__ - INFO - Woolworths search 'marketing' found 6 raw jobs
+2026-09-19 13:14:01,411 - __main__ - INFO - Woolworths search 'crm' found 1 raw jobs
+2026-09-19 13:14:04,982 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-09-19 13:14:04,983 - __main__ - INFO - Woolworths returned 93 raw jobs total (deduplicated)
+2026-09-19 13:14:04,983 - __main__ - INFO - Total unique jobs collected: 143
+2026-09-19 13:14:04,983 - __main__ - INFO - Jobs after location filter: 89
+2026-09-19 13:14:04,983 - __main__ - INFO - New candidates (not previously sent): 28
+2026-09-19 13:14:26,265 - __main__ - INFO -   [Claude] Amazon | Vendor Manager  | {'id': 'amazon_86c962f5-3f60-4abb-83f0-c185c84ab038', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Category management and vendor strategy involves commercial analysis, supplier evaluation, and data-driven decisions; strong alignment with P&G operations and analytical background.'}
+2026-09-19 13:14:26,265 - __main__ - INFO -   [Claude] Amazon | Specialist Strategy & Sales Operations Lead, Specialist Strategy & Sales Operations | {'id': 'amazon_d2f3420e-c50d-4ddd-af08-48de40c226fc', 'role_fit': 8, 'industry_fit': 8, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Strategy & Sales Operations Lead directly aligns with data-driven decision-making, analytics, commercial analysis, and operational excellence; strong match to candidate's expertise."}
+2026-09-19 13:14:27,756 - __main__ - INFO - Email sent successfully
+2026-09-19 13:14:27,756 - __main__ - INFO - Sent 2 new matches (method: Claude)
