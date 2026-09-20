@@ -542,3 +542,25 @@
 2026-09-19 13:14:26,265 - __main__ - INFO -   [Claude] Amazon | Specialist Strategy & Sales Operations Lead, Specialist Strategy & Sales Operations | {'id': 'amazon_d2f3420e-c50d-4ddd-af08-48de40c226fc', 'role_fit': 8, 'industry_fit': 8, 'location_fit': 10, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Strategy & Sales Operations Lead directly aligns with data-driven decision-making, analytics, commercial analysis, and operational excellence; strong match to candidate's expertise."}
 2026-09-19 13:14:27,756 - __main__ - INFO - Email sent successfully
 2026-09-19 13:14:27,756 - __main__ - INFO - Sent 2 new matches (method: Claude)
+2026-09-20 13:37:05,517 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-20 13:37:05,905 - __main__ - INFO - Amazon query 'planner' returned 6 raw jobs
+2026-09-20 13:37:06,279 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-20 13:37:06,630 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-20 13:37:06,977 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-20 13:37:10,350 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-09-20 13:37:13,729 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-09-20 13:37:16,951 - __main__ - INFO - Woolworths search 'ecommerce' found 8 raw jobs
+2026-09-20 13:37:20,487 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-20 13:37:24,248 - __main__ - INFO - Woolworths search 'data' found 5 raw jobs
+2026-09-20 13:37:27,978 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-20 13:37:31,651 - __main__ - INFO - Woolworths search 'planning' found 7 raw jobs
+2026-09-20 13:37:35,247 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-09-20 13:37:37,879 - __main__ - INFO - Woolworths search 'crm' found 1 raw jobs
+2026-09-20 13:37:41,566 - __main__ - INFO - Woolworths search 'insights' found 2 raw jobs
+2026-09-20 13:37:41,568 - __main__ - INFO - Woolworths returned 87 raw jobs total (deduplicated)
+2026-09-20 13:37:41,568 - __main__ - INFO - Total unique jobs collected: 137
+2026-09-20 13:37:41,568 - __main__ - INFO - Jobs after location filter: 83
+2026-09-20 13:37:41,568 - __main__ - INFO - New candidates (not previously sent): 23
+2026-09-20 13:37:59,001 - __main__ - INFO -   [Claude] Woolworths | IT Project Manager | {'id': 'woolworths_112195', 'role_fit': 6, 'industry_fit': 8, 'location_fit': 6, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "IT Project Manager with strong alignment to candidate's Agile/project management and strategic delivery experience."}
+2026-09-20 13:38:00,380 - __main__ - INFO - Email sent successfully
+2026-09-20 13:38:00,380 - __main__ - INFO - Sent 1 new matches (method: Claude)
