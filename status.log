@@ -587,3 +587,26 @@
 2026-09-21 15:57:21,725 - __main__ - INFO -   [Claude] Woolworths | Data and BI Engineer | {'id': 'woolworths_107580', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Data and BI Engineer role matches SQL, Python, Power BI, and relational database design skills; solid mid-level role in retail analytics.'}
 2026-09-21 15:57:23,685 - __main__ - INFO - Email sent successfully
 2026-09-21 15:57:23,685 - __main__ - INFO - Sent 2 new matches (method: Claude)
+2026-09-22 14:04:53,422 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-22 14:04:53,693 - __main__ - INFO - Amazon query 'planner' returned 5 raw jobs
+2026-09-22 14:04:54,068 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-22 14:04:54,469 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-22 14:04:54,837 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-22 14:04:58,287 - __main__ - INFO - Woolworths search 'analyst' found 8 raw jobs
+2026-09-22 14:05:01,459 - __main__ - INFO - Woolworths search 'cartology' found 11 raw jobs
+2026-09-22 14:05:04,633 - __main__ - INFO - Woolworths search 'ecommerce' found 8 raw jobs
+2026-09-22 14:05:08,203 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-09-22 14:05:11,628 - __main__ - INFO - Woolworths search 'data' found 10 raw jobs
+2026-09-22 14:05:15,197 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-22 14:05:18,878 - __main__ - INFO - Woolworths search 'planning' found 8 raw jobs
+2026-09-22 14:05:22,293 - __main__ - INFO - Woolworths search 'marketing' found 4 raw jobs
+2026-09-22 14:05:25,084 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-22 14:05:28,505 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-09-22 14:05:28,506 - __main__ - INFO - Woolworths returned 87 raw jobs total (deduplicated)
+2026-09-22 14:05:28,506 - __main__ - INFO - Total unique jobs collected: 136
+2026-09-22 14:05:28,506 - __main__ - INFO - Jobs after location filter: 86
+2026-09-22 14:05:28,507 - __main__ - INFO - New candidates (not previously sent): 30
+2026-09-22 14:05:51,627 - __main__ - INFO -   [Claude] Amazon | TIPM, Network Delivery, Data Center Capacity Delivery, BaND Network Delivery, Data Center Capacity Delivery | {'id': 'amazon_37a4f420-c6d1-4213-8aa1-5779a00a2f8a', 'role_fit': 6, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Data center capacity planning aligns with forecasting and logistics optimization expertise; tech sector offers strong growth but infrastructure engineering focus is not core analytics work.'}
+2026-09-22 14:05:51,628 - __main__ - INFO -   [Claude] Amazon | Network Development Engineer, Core Network - Data Center Life Cycle | {'id': 'amazon_59d570a4-44ef-409f-8cf1-528a93dc7bee', 'role_fit': 6, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Network Development Engineer in data center lifecycle planning overlaps with logistics capacity and infrastructure planning; however, engineering focus is not primary analytics.'}
+2026-09-22 14:05:52,803 - __main__ - INFO - Email sent successfully
+2026-09-22 14:05:52,804 - __main__ - INFO - Sent 2 new matches (method: Claude)
