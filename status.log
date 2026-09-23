@@ -610,3 +610,27 @@
 2026-09-22 14:05:51,628 - __main__ - INFO -   [Claude] Amazon | Network Development Engineer, Core Network - Data Center Life Cycle | {'id': 'amazon_59d570a4-44ef-409f-8cf1-528a93dc7bee', 'role_fit': 6, 'industry_fit': 7, 'location_fit': 10, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Network Development Engineer in data center lifecycle planning overlaps with logistics capacity and infrastructure planning; however, engineering focus is not primary analytics.'}
 2026-09-22 14:05:52,803 - __main__ - INFO - Email sent successfully
 2026-09-22 14:05:52,804 - __main__ - INFO - Sent 2 new matches (method: Claude)
+2026-09-23 14:17:08,755 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-23 14:17:09,118 - __main__ - INFO - Amazon query 'planner' returned 5 raw jobs
+2026-09-23 14:17:09,594 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-23 14:17:10,492 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-23 14:17:10,937 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-23 14:17:14,401 - __main__ - INFO - Woolworths search 'analyst' found 9 raw jobs
+2026-09-23 14:17:17,643 - __main__ - INFO - Woolworths search 'cartology' found 11 raw jobs
+2026-09-23 14:17:21,763 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-09-23 14:17:26,045 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-23 14:17:29,721 - __main__ - INFO - Woolworths search 'data' found 6 raw jobs
+2026-09-23 14:17:33,513 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-23 14:17:37,054 - __main__ - INFO - Woolworths search 'planning' found 8 raw jobs
+2026-09-23 14:17:40,366 - __main__ - INFO - Woolworths search 'marketing' found 5 raw jobs
+2026-09-23 14:17:43,247 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-23 14:17:46,781 - __main__ - INFO - Woolworths search 'insights' found 1 raw jobs
+2026-09-23 14:17:46,782 - __main__ - INFO - Woolworths returned 80 raw jobs total (deduplicated)
+2026-09-23 14:17:46,783 - __main__ - INFO - Total unique jobs collected: 127
+2026-09-23 14:17:46,783 - __main__ - INFO - Jobs after location filter: 78
+2026-09-23 14:17:46,783 - __main__ - INFO - New candidates (not previously sent): 25
+2026-09-23 14:18:09,775 - __main__ - INFO -   [Claude] Woolworths | Pricing Analyst | {'id': 'woolworths_96348', 'role_fit': 8, 'industry_fit': 9, 'location_fit': 9, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Pricing Analyst directly matches candidate's commercial/pricing strategy and analytical skills; strong fit with FMCG/retail industry preference and near-ideal location."}
+2026-09-23 14:18:09,775 - __main__ - INFO -   [Claude] Woolworths | Category Manager - Drinks & Snacks | {'id': 'woolworths_107853', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 8, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Category Manager role leverages candidate's commercial analysis, pricing strategy, portfolio management, and P&G consumer insights experience; strong FMCG/retail fit with seniority match."}
+2026-09-23 14:18:09,775 - __main__ - INFO -   [Claude] Woolworths | Program Manager | {'id': 'woolworths_107035', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 9, 'seniority_fit': 7, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Program Manager in Professional Services aligns with candidate's project leadership, stakeholder management, and structured problem-solving; retail/tech adjacent with strong location match."}
+2026-09-23 14:18:11,112 - __main__ - INFO - Email sent successfully
+2026-09-23 14:18:11,112 - __main__ - INFO - Sent 3 new matches (method: Claude)
