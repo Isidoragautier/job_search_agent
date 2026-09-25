@@ -658,3 +658,59 @@
 2026-09-24 14:16:52,213 - __main__ - INFO -   [Claude] Woolworths | Customer Account Executive | {'id': 'woolworths_100146', 'role_fit': 6, 'industry_fit': 9, 'location_fit': 8, 'seniority_fit': 6, 'overall_relevant': True, 'visa_flag': 'none', 'reason': 'Customer Account Executive in digital payments aligns with commercial analysis, customer insights, account strategy, and data-driven customer relationship management.'}
 2026-09-24 14:16:53,395 - __main__ - INFO - Email sent successfully
 2026-09-24 14:16:53,396 - __main__ - INFO - Sent 3 new matches (method: Claude)
+2026-09-25 14:39:00,023 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-25 14:39:00,412 - __main__ - INFO - Amazon query 'planner' returned 4 raw jobs
+2026-09-25 14:39:00,882 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-25 14:39:01,322 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-25 14:39:01,783 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-25 14:39:07,553 - __main__ - INFO - Woolworths search 'analyst' found 7 raw jobs
+2026-09-25 14:39:12,255 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-09-25 14:39:17,508 - __main__ - INFO - Woolworths search 'ecommerce' found 5 raw jobs
+2026-09-25 14:39:23,705 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-25 14:39:27,103 - __main__ - INFO - Woolworths search 'data' found 10 raw jobs
+2026-09-25 14:39:30,431 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-25 14:39:33,699 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-09-25 14:39:37,511 - __main__ - INFO - Woolworths search 'marketing' found 5 raw jobs
+2026-09-25 14:39:39,720 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-25 14:39:44,218 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-09-25 14:39:44,219 - __main__ - INFO - Woolworths returned 86 raw jobs total (deduplicated)
+2026-09-25 14:39:44,219 - __main__ - INFO - Total unique jobs collected: 139
+2026-09-25 14:39:44,219 - __main__ - INFO - Jobs after location filter: 81
+2026-09-25 14:39:44,219 - __main__ - INFO - New candidates (not previously sent): 34
+2026-09-25 14:40:22,430 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: Unterminated string starting at: line 341 column 15 (char 11680)
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Construction Director, Data Centre Capacity Delivery | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Data Center Technical Operations Engineer, AWS Data Center Engineering Operations | score=9
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Executive Assistant, AWS WWCO Partner Management | score=5
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | ANZ Senior Account Manager, Amazon Leo | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Software Development Engineer, GCNA-D | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Sales Account Manager Advertising, Amazon | score=8
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Software Development Engineer, AWS Border Network Engineering | score=8
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Sr GTM Specialist, ANZ, Amazon Ads | score=4
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | FSI Account Manager , Banking and Lending | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Partner Development Manager, ANZ PDM Team | score=8
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Account Manager, Cloud Sales Centre, Growth team | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Account Manager, Cloud Sales Centre, Growth team | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Account Manager, Cloud Sales Centre, Growth team | score=7
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Sales Account Manager, Adapt, Amazon Ads, Amazon Ads, Adapt | score=9
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Strategic Account Manager, Strategic Account Services | score=6
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Amazon | Senior Solutions Architect, Travel and Hospitality | score=10
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Woolworths | Sales Planning Analyst | score=8
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Woolworths | Senior Business Analyst/AI Optimisation | score=13
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Woolworths | Senior Product Designer | score=12
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Woolworths | Brand Manager | score=6
+2026-09-25 14:40:22,431 - __main__ - INFO -   [Keyword] Woolworths | Designer Kidswear - Big W | score=1
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Design Manager - Apparel (12m Contract) | score=4
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant Menswear - 12m FTC | score=1
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Head of Product & Design | score=12
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Finance Manager -  Commercial Advisory | score=5
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Junior Production Manager | score=7
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Customer Service Manager | score=3
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Bakery Manager | score=2
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Video Editor | score=10
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Team Experience Partner | score=5
+2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Team Experience Partner | score=5
+2026-09-25 14:40:23,951 - __main__ - INFO - Email sent successfully
+2026-09-25 14:40:23,951 - __main__ - INFO - Sent 28 new matches (method: keyword)
