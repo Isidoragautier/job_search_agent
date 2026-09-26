@@ -714,3 +714,23 @@
 2026-09-25 14:40:22,432 - __main__ - INFO -   [Keyword] Woolworths | Team Experience Partner | score=5
 2026-09-25 14:40:23,951 - __main__ - INFO - Email sent successfully
 2026-09-25 14:40:23,951 - __main__ - INFO - Sent 28 new matches (method: keyword)
+2026-09-26 13:47:07,887 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-26 13:47:08,553 - __main__ - INFO - Amazon query 'planner' returned 4 raw jobs
+2026-09-26 13:47:08,886 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-26 13:47:09,271 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-26 13:47:09,812 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-26 13:47:12,769 - __main__ - INFO - Woolworths search 'analyst' found 7 raw jobs
+2026-09-26 13:47:15,671 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-09-26 13:47:18,351 - __main__ - INFO - Woolworths search 'ecommerce' found 5 raw jobs
+2026-09-26 13:47:21,636 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-26 13:47:24,859 - __main__ - INFO - Woolworths search 'data' found 11 raw jobs
+2026-09-26 13:47:28,152 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-26 13:47:31,704 - __main__ - INFO - Woolworths search 'planning' found 12 raw jobs
+2026-09-26 13:47:34,809 - __main__ - INFO - Woolworths search 'marketing' found 6 raw jobs
+2026-09-26 13:47:36,850 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-26 13:47:40,110 - __main__ - INFO - Woolworths search 'insights' found 1 raw jobs
+2026-09-26 13:47:40,111 - __main__ - INFO - Woolworths returned 87 raw jobs total (deduplicated)
+2026-09-26 13:47:40,111 - __main__ - INFO - Total unique jobs collected: 140
+2026-09-26 13:47:40,112 - __main__ - INFO - Jobs after location filter: 86
+2026-09-26 13:47:40,112 - __main__ - INFO - New candidates (not previously sent): 11
+2026-09-26 13:47:47,528 - __main__ - INFO - No new matching jobs today
