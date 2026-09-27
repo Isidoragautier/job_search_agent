@@ -734,3 +734,23 @@
 2026-09-26 13:47:40,112 - __main__ - INFO - Jobs after location filter: 86
 2026-09-26 13:47:40,112 - __main__ - INFO - New candidates (not previously sent): 11
 2026-09-26 13:47:47,528 - __main__ - INFO - No new matching jobs today
+2026-09-27 14:44:52,606 - __main__ - INFO - Amazon query 'analyst' returned 5 raw jobs
+2026-09-27 14:44:53,584 - __main__ - INFO - Amazon query 'planner' returned 4 raw jobs
+2026-09-27 14:44:54,541 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-09-27 14:44:55,109 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-09-27 14:44:55,670 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-09-27 14:44:59,218 - __main__ - INFO - Woolworths search 'analyst' found 7 raw jobs
+2026-09-27 14:45:02,207 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-09-27 14:45:05,070 - __main__ - INFO - Woolworths search 'ecommerce' found 4 raw jobs
+2026-09-27 14:45:08,557 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-09-27 14:45:11,841 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-09-27 14:45:15,293 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-09-27 14:45:19,187 - __main__ - INFO - Woolworths search 'planning' found 11 raw jobs
+2026-09-27 14:45:22,511 - __main__ - INFO - Woolworths search 'marketing' found 5 raw jobs
+2026-09-27 14:45:24,872 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-09-27 14:45:28,302 - __main__ - INFO - Woolworths search 'insights' found 1 raw jobs
+2026-09-27 14:45:28,304 - __main__ - INFO - Woolworths returned 80 raw jobs total (deduplicated)
+2026-09-27 14:45:28,304 - __main__ - INFO - Total unique jobs collected: 133
+2026-09-27 14:45:28,304 - __main__ - INFO - Jobs after location filter: 74
+2026-09-27 14:45:28,304 - __main__ - INFO - New candidates (not previously sent): 1
+2026-09-27 14:45:30,279 - __main__ - INFO - No new matching jobs today
