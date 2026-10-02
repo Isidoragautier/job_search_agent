@@ -852,3 +852,49 @@
 2026-10-01 16:33:14,301 - __main__ - INFO -   [Claude] Woolworths | Senior Data and Ai Engineer | {'id': 'woolworths_112021', 'role_fit': 7, 'industry_fit': 9, 'location_fit': 9, 'seniority_fit': 9, 'overall_relevant': True, 'visa_flag': 'none', 'reason': "Senior data/AI engineer role matches candidate's technical depth in SQL, Python, ML, and analytics at appropriate seniority level in preferred retail industry."}
 2026-10-01 16:33:16,100 - __main__ - INFO - Email sent successfully
 2026-10-01 16:33:16,100 - __main__ - INFO - Sent 4 new matches (method: Claude)
+2026-10-02 15:53:02,700 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-10-02 15:53:02,961 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-02 15:53:03,285 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-02 15:53:03,937 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-02 15:53:04,377 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-02 15:53:07,917 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-10-02 15:53:11,084 - __main__ - INFO - Woolworths search 'cartology' found 13 raw jobs
+2026-10-02 15:53:13,834 - __main__ - INFO - Woolworths search 'ecommerce' found 0 raw jobs
+2026-10-02 15:53:17,551 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-02 15:53:21,010 - __main__ - INFO - Woolworths search 'data' found 10 raw jobs
+2026-10-02 15:53:24,677 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-02 15:53:28,313 - __main__ - INFO - Woolworths search 'planning' found 5 raw jobs
+2026-10-02 15:53:31,799 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-10-02 15:53:34,109 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-02 15:53:37,767 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-10-02 15:53:37,768 - __main__ - INFO - Woolworths returned 83 raw jobs total (deduplicated)
+2026-10-02 15:53:37,769 - __main__ - INFO - Total unique jobs collected: 135
+2026-10-02 15:53:37,769 - __main__ - INFO - Jobs after location filter: 80
+2026-10-02 15:53:37,769 - __main__ - INFO - New candidates (not previously sent): 24
+2026-10-02 15:53:38,107 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-02 15:53:38,108 - __main__ - INFO -   [Keyword] Amazon | Partner Manager (Education & Greenfield), WWPS ANZ | score=6
+2026-10-02 15:53:38,108 - __main__ - INFO -   [Keyword] Amazon | Network Development Engineer, Amazon Web Services | score=7
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Amazon | Ads Product Marketing Manager, Prime Video AUNZ | score=6
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Amazon | Senior Video Sales Specialist, VSS International VSS, Amazon Ads | score=4
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Amazon | Sales Account Manager, Adapt, Amazon Ads, Amazon Ads, Adapt | score=9
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Amazon | Sr. Marketing Manager, Prime (Engagement) | score=7
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Senior Group Accountant - Reporting | score=5
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Senior Project Manager - Cartology | score=16
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Designer  - Big W | score=1
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Manager - Climate & Nature | score=5
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Refrigeration Service Technician | NSW | score=3
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Marketing Executive | score=10
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Project Coordinator- InjuryCare | score=4
+2026-10-02 15:53:38,109 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Marketing Manager Digital Acquisition | score=11
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Art Director | score=4
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Food Editor | score=4
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | UX Designer | score=7
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Infrastructure Solution Architect | score=3
+2026-10-02 15:53:38,110 - __main__ - INFO -   [Keyword] Woolworths | Strategy Manager | score=11
+2026-10-02 15:53:39,209 - __main__ - INFO - Email sent successfully
+2026-10-02 15:53:39,209 - __main__ - INFO - Sent 18 new matches (method: keyword)
