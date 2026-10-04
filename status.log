@@ -927,3 +927,28 @@
 2026-10-03 14:21:19,878 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
 2026-10-03 14:21:22,014 - __main__ - INFO - Email sent successfully
 2026-10-03 14:21:22,014 - __main__ - INFO - Sent 1 new matches (method: keyword)
+2026-10-04 14:52:05,101 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-10-04 14:52:05,389 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-04 14:52:05,743 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-04 14:52:06,117 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-04 14:52:06,476 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-04 14:52:09,387 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-10-04 14:52:12,256 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-10-04 14:52:14,716 - __main__ - INFO - Woolworths search 'ecommerce' found 0 raw jobs
+2026-10-04 14:52:17,852 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-04 14:52:21,033 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-10-04 14:52:24,603 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-04 14:52:28,593 - __main__ - INFO - Woolworths search 'planning' found 11 raw jobs
+2026-10-04 14:52:31,731 - __main__ - INFO - Woolworths search 'marketing' found 9 raw jobs
+2026-10-04 14:52:33,835 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-04 14:52:37,243 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-10-04 14:52:37,244 - __main__ - INFO - Woolworths returned 90 raw jobs total (deduplicated)
+2026-10-04 14:52:37,244 - __main__ - INFO - Total unique jobs collected: 142
+2026-10-04 14:52:37,245 - __main__ - INFO - Jobs after location filter: 76
+2026-10-04 14:52:37,245 - __main__ - INFO - New candidates (not previously sent): 3
+2026-10-04 14:52:37,365 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-04 14:52:37,366 - __main__ - INFO -   [Keyword] Woolworths | Designer  - Big W | score=1
+2026-10-04 14:52:37,366 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-04 14:52:37,366 - __main__ - INFO -   [Keyword] Woolworths | Claims Consultant | score=4
+2026-10-04 14:52:38,948 - __main__ - INFO - Email sent successfully
+2026-10-04 14:52:38,948 - __main__ - INFO - Sent 1 new matches (method: keyword)
