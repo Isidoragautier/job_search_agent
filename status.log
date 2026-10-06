@@ -978,3 +978,40 @@
 2026-10-05 18:35:39,235 - __main__ - INFO -   [Keyword] Woolworths | Lawyer - Competition & Consumer | score=5
 2026-10-05 18:35:41,188 - __main__ - INFO - Email sent successfully
 2026-10-05 18:35:41,188 - __main__ - INFO - Sent 1 new matches (method: keyword)
+2026-10-06 16:02:09,497 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-10-06 16:02:10,187 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-06 16:02:10,593 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-06 16:02:11,010 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-06 16:02:11,619 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-06 16:02:15,215 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-10-06 16:02:18,372 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-10-06 16:02:21,233 - __main__ - INFO - Woolworths search 'ecommerce' found 3 raw jobs
+2026-10-06 16:02:25,010 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-06 16:02:28,901 - __main__ - INFO - Woolworths search 'data' found 13 raw jobs
+2026-10-06 16:02:32,781 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-06 16:02:37,156 - __main__ - INFO - Woolworths search 'planning' found 7 raw jobs
+2026-10-06 16:02:40,740 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-10-06 16:02:43,070 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-06 16:02:46,787 - __main__ - INFO - Woolworths search 'insights' found 2 raw jobs
+2026-10-06 16:02:46,788 - __main__ - INFO - Woolworths returned 89 raw jobs total (deduplicated)
+2026-10-06 16:02:46,788 - __main__ - INFO - Total unique jobs collected: 143
+2026-10-06 16:02:46,788 - __main__ - INFO - Jobs after location filter: 88
+2026-10-06 16:02:46,788 - __main__ - INFO - New candidates (not previously sent): 15
+2026-10-06 16:02:46,896 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Amazon | Senior Program Manager, Defence, Worldwide Public Sector | score=6
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Amazon | Technical Infrastructure Program Manager, Global Network Delivery | score=8
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Amazon | Bus Dev Manager - Amazon Leo , Amazon Leo B2B, Amazon Leo B2B | score=5
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Woolworths | Planning & Procurement Assistant | score=3
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Woolworths | Designer  - Big W | score=1
+2026-10-06 16:02:46,897 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant Menswear - 12m FTC | score=1
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Senior Digital Media Manager | score=9
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | GM Technology - Loyalty Domain Lead | score=10
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Media Manager | score=5
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Schedule Planner | score=5
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Performance & Reward Partner | score=4
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Organisational Design Specialist | score=5
+2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-10-06 16:02:48,416 - __main__ - INFO - Email sent successfully
+2026-10-06 16:02:48,416 - __main__ - INFO - Sent 10 new matches (method: keyword)
