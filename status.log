@@ -1015,3 +1015,31 @@
 2026-10-06 16:02:46,898 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
 2026-10-06 16:02:48,416 - __main__ - INFO - Email sent successfully
 2026-10-06 16:02:48,416 - __main__ - INFO - Sent 10 new matches (method: keyword)
+2026-10-07 16:39:32,938 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-10-07 16:39:33,585 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-07 16:39:34,041 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-07 16:39:34,431 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-07 16:39:34,859 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-07 16:39:39,071 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-10-07 16:39:42,793 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-10-07 16:39:46,093 - __main__ - INFO - Woolworths search 'ecommerce' found 5 raw jobs
+2026-10-07 16:39:50,426 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-07 16:39:54,759 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-10-07 16:39:59,405 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-07 16:40:03,259 - __main__ - INFO - Woolworths search 'planning' found 6 raw jobs
+2026-10-07 16:40:07,150 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-10-07 16:40:09,755 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-07 16:40:13,723 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-10-07 16:40:13,724 - __main__ - INFO - Woolworths returned 86 raw jobs total (deduplicated)
+2026-10-07 16:40:13,724 - __main__ - INFO - Total unique jobs collected: 139
+2026-10-07 16:40:13,724 - __main__ - INFO - Jobs after location filter: 81
+2026-10-07 16:40:13,724 - __main__ - INFO - New candidates (not previously sent): 6
+2026-10-07 16:40:13,865 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-07 16:40:13,866 - __main__ - INFO -   [Keyword] Amazon | Consumer Insights Manager (AUNZ/SEA), Prime Video | score=8
+2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Amazon | Sr. Ad Tech Account Executive, AdTech Sales | score=7
+2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Woolworths | Designer  - Big W | score=1
+2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Woolworths | Bakery Manager | score=2
+2026-10-07 16:40:15,073 - __main__ - INFO - Email sent successfully
+2026-10-07 16:40:15,073 - __main__ - INFO - Sent 2 new matches (method: keyword)
