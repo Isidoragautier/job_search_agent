@@ -1043,3 +1043,35 @@
 2026-10-07 16:40:13,867 - __main__ - INFO -   [Keyword] Woolworths | Bakery Manager | score=2
 2026-10-07 16:40:15,073 - __main__ - INFO - Email sent successfully
 2026-10-07 16:40:15,073 - __main__ - INFO - Sent 2 new matches (method: keyword)
+2026-10-08 16:37:28,912 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-10-08 16:37:29,766 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-08 16:37:30,157 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-08 16:37:30,575 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-08 16:37:31,095 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-08 16:37:34,724 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-10-08 16:37:37,976 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-10-08 16:37:41,279 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-10-08 16:37:45,017 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-08 16:37:48,584 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-10-08 16:37:52,898 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-08 16:37:56,538 - __main__ - INFO - Woolworths search 'planning' found 9 raw jobs
+2026-10-08 16:38:00,084 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-10-08 16:38:02,457 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-08 16:38:06,370 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-10-08 16:38:06,372 - __main__ - INFO - Woolworths returned 87 raw jobs total (deduplicated)
+2026-10-08 16:38:06,372 - __main__ - INFO - Total unique jobs collected: 138
+2026-10-08 16:38:06,372 - __main__ - INFO - Jobs after location filter: 81
+2026-10-08 16:38:06,372 - __main__ - INFO - New candidates (not previously sent): 10
+2026-10-08 16:38:06,493 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-08 16:38:06,494 - __main__ - INFO -   [Keyword] Amazon | Category Growth Manager, Fashion & Fitness (Softlines) | score=3
+2026-10-08 16:38:06,494 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,494 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-08 16:38:06,495 - __main__ - INFO -   [Keyword] Woolworths | Fulfilment Manager | score=2
+2026-10-08 16:38:07,782 - __main__ - INFO - Email sent successfully
+2026-10-08 16:38:07,782 - __main__ - INFO - Sent 1 new matches (method: keyword)
