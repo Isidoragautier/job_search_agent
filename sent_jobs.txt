@@ -273,3 +273,6 @@ amazon_4c48162d-5ba3-4ebf-9b31-18bf31038430
 amazon_2ae47f3a-038c-4e83-bf83-374faf1fad10
 woolworths_108489
 woolworths_110044
+amazon_88636879-219c-481b-80e0-d5b9ee0fb02e
+amazon_cfe8b6c2-bdf5-42c4-be01-6a191bae28bb
+woolworths_100112

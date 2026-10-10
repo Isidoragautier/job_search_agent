@@ -1107,3 +1107,31 @@
 2026-10-09 16:21:33,179 - __main__ - INFO -   [Keyword] Woolworths | . | score=1
 2026-10-09 16:21:35,203 - __main__ - INFO - Email sent successfully
 2026-10-09 16:21:35,203 - __main__ - INFO - Sent 5 new matches (method: keyword)
+2026-10-10 15:27:42,878 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-10-10 15:27:43,201 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-10 15:27:43,651 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-10 15:27:44,080 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-10 15:27:44,537 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-10 15:27:48,356 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-10-10 15:27:52,092 - __main__ - INFO - Woolworths search 'cartology' found 9 raw jobs
+2026-10-10 15:27:55,266 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-10-10 15:27:59,294 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-10 15:28:03,271 - __main__ - INFO - Woolworths search 'data' found 8 raw jobs
+2026-10-10 15:28:07,674 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-10 15:28:11,930 - __main__ - INFO - Woolworths search 'planning' found 8 raw jobs
+2026-10-10 15:28:16,057 - __main__ - INFO - Woolworths search 'marketing' found 11 raw jobs
+2026-10-10 15:28:18,865 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-10 15:28:22,458 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-10-10 15:28:22,460 - __main__ - INFO - Woolworths returned 92 raw jobs total (deduplicated)
+2026-10-10 15:28:22,460 - __main__ - INFO - Total unique jobs collected: 142
+2026-10-10 15:28:22,460 - __main__ - INFO - Jobs after location filter: 76
+2026-10-10 15:28:22,460 - __main__ - INFO - New candidates (not previously sent): 6
+2026-10-10 15:28:22,602 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Amazon | Senior Trust and Safety Operations Analyst | score=7
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Amazon | Specialist Strategy & Sales Operations Lead, Specialist Strategy & Sales Operations, APJ (Based in Sydney or Singapore) | score=9
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Woolworths | Customer Service Manager | score=3
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Woolworths | . | score=1
+2026-10-10 15:28:22,603 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-10-10 15:28:24,924 - __main__ - INFO - Email sent successfully
+2026-10-10 15:28:24,924 - __main__ - INFO - Sent 3 new matches (method: keyword)
