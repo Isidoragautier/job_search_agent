@@ -1341,3 +1341,32 @@
 2026-10-16 14:03:27,175 - __main__ - INFO -   [Keyword] Woolworths | . | score=1
 2026-10-16 14:03:34,445 - __main__ - INFO - Email sent successfully
 2026-10-16 14:03:34,446 - __main__ - INFO - Sent 3 new matches (method: keyword)
+2026-10-17 13:02:23,412 - __main__ - INFO - Amazon query 'analyst' returned 8 raw jobs
+2026-10-17 13:02:23,746 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-17 13:02:24,220 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-17 13:02:24,665 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-17 13:02:25,507 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-17 13:02:29,047 - __main__ - INFO - Woolworths search 'analyst' found 12 raw jobs
+2026-10-17 13:02:32,378 - __main__ - INFO - Woolworths search 'cartology' found 11 raw jobs
+2026-10-17 13:02:35,308 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-10-17 13:02:38,950 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-17 13:02:42,655 - __main__ - INFO - Woolworths search 'data' found 10 raw jobs
+2026-10-17 13:02:46,473 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-17 13:02:50,623 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-10-17 13:02:54,212 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-10-17 13:02:56,505 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-17 13:03:00,075 - __main__ - INFO - Woolworths search 'insights' found 0 raw jobs
+2026-10-17 13:03:00,076 - __main__ - INFO - Woolworths returned 91 raw jobs total (deduplicated)
+2026-10-17 13:03:00,076 - __main__ - INFO - Total unique jobs collected: 146
+2026-10-17 13:03:00,076 - __main__ - INFO - Jobs after location filter: 86
+2026-10-17 13:03:00,076 - __main__ - INFO - New candidates (not previously sent): 7
+2026-10-17 13:03:00,193 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-17 13:03:00,193 - __main__ - INFO -   [Keyword] Amazon | Area Manager II, Operations, Fulfillment Center - Fixed, Operations | score=8
+2026-10-17 13:03:00,193 - __main__ - INFO -   [Keyword] Amazon | Demand Generation Representative Intern | score=2
+2026-10-17 13:03:00,193 - __main__ - INFO -   [Keyword] Woolworths | Store Space Deployment Floor Planner | score=1
+2026-10-17 13:03:00,194 - __main__ - INFO -   [Keyword] Woolworths | Marketing Manager (Trade eDM) | score=2
+2026-10-17 13:03:00,194 - __main__ - INFO -   [Keyword] Woolworths | Online Manager - EA | score=2
+2026-10-17 13:03:00,194 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-10-17 13:03:00,194 - __main__ - INFO -   [Keyword] Woolworths | . | score=1
+2026-10-17 13:03:02,526 - __main__ - INFO - Email sent successfully
+2026-10-17 13:03:02,527 - __main__ - INFO - Sent 1 new matches (method: keyword)
