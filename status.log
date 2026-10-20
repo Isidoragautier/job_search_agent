@@ -1434,3 +1434,39 @@
 2026-10-19 16:33:05,153 - __main__ - INFO -   [Keyword] Woolworths | Senior Lawyer - Competition & Consumer | score=6
 2026-10-19 16:33:07,367 - __main__ - INFO - Email sent successfully
 2026-10-19 16:33:07,367 - __main__ - INFO - Sent 6 new matches (method: keyword)
+2026-10-20 14:22:38,220 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-10-20 14:22:38,595 - __main__ - INFO - Amazon query 'planner' returned 3 raw jobs
+2026-10-20 14:22:38,992 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-20 14:22:39,513 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-20 14:22:39,916 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-20 14:22:43,387 - __main__ - INFO - Woolworths search 'analyst' found 11 raw jobs
+2026-10-20 14:22:46,678 - __main__ - INFO - Woolworths search 'cartology' found 9 raw jobs
+2026-10-20 14:22:49,596 - __main__ - INFO - Woolworths search 'ecommerce' found 5 raw jobs
+2026-10-20 14:22:53,825 - __main__ - INFO - Woolworths search 'commercial' found 17 raw jobs
+2026-10-20 14:22:58,121 - __main__ - INFO - Woolworths search 'data' found 11 raw jobs
+2026-10-20 14:23:02,369 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-20 14:23:06,145 - __main__ - INFO - Woolworths search 'planning' found 9 raw jobs
+2026-10-20 14:23:09,783 - __main__ - INFO - Woolworths search 'marketing' found 9 raw jobs
+2026-10-20 14:23:12,549 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-20 14:23:16,473 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-10-20 14:23:16,474 - __main__ - INFO - Woolworths returned 92 raw jobs total (deduplicated)
+2026-10-20 14:23:16,474 - __main__ - INFO - Total unique jobs collected: 145
+2026-10-20 14:23:16,475 - __main__ - INFO - Jobs after location filter: 90
+2026-10-20 14:23:16,475 - __main__ - INFO - New candidates (not previously sent): 14
+2026-10-20 14:23:16,588 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-20 14:23:16,589 - __main__ - INFO -   [Keyword] Amazon | Program Manager, Construction and Retrofits | score=8
+2026-10-20 14:23:16,589 - __main__ - INFO -   [Keyword] Amazon | Demand Generation Representative Intern | score=2
+2026-10-20 14:23:16,589 - __main__ - INFO -   [Keyword] Woolworths | Store Space Deployment Floor Planner | score=1
+2026-10-20 14:23:16,589 - __main__ - INFO -   [Keyword] Woolworths | Marketing Manager (Trade eDM) | score=2
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Digital Designer - FT 6 months | score=11
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Associate Delivery Manager- Wiq | score=7
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Team Coordinator | score=4
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | In-store Marketing Operations Planner | score=5
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | . | score=1
+2026-10-20 14:23:16,590 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-10-20 14:23:18,591 - __main__ - INFO - Email sent successfully
+2026-10-20 14:23:18,591 - __main__ - INFO - Sent 5 new matches (method: keyword)
