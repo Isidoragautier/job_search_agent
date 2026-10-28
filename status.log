@@ -1725,3 +1725,82 @@
 2026-10-27 15:26:45,098 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
 2026-10-27 15:26:47,218 - __main__ - INFO - Email sent successfully
 2026-10-27 15:26:47,218 - __main__ - INFO - Sent 5 new matches (method: keyword)
+2026-10-28 16:09:28,677 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-10-28 16:09:29,334 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-10-28 16:09:29,650 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-10-28 16:09:29,998 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-10-28 16:09:30,408 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-10-28 16:09:34,413 - __main__ - INFO - Woolworths search 'analyst' found 9 raw jobs
+2026-10-28 16:09:39,120 - __main__ - INFO - Woolworths search 'cartology' found 12 raw jobs
+2026-10-28 16:09:43,085 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-10-28 16:09:47,229 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-10-28 16:09:51,592 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-10-28 16:09:55,895 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-10-28 16:09:59,999 - __main__ - INFO - Woolworths search 'planning' found 14 raw jobs
+2026-10-28 16:10:04,030 - __main__ - INFO - Woolworths search 'marketing' found 8 raw jobs
+2026-10-28 16:10:07,326 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-10-28 16:10:11,705 - __main__ - INFO - Woolworths search 'insights' found 4 raw jobs
+2026-10-28 16:10:11,706 - __main__ - INFO - Woolworths returned 97 raw jobs total (deduplicated)
+2026-10-28 16:10:11,707 - __main__ - INFO - Total unique jobs collected: 154
+2026-10-28 16:10:11,707 - __main__ - INFO - Jobs after location filter: 95
+2026-10-28 16:10:11,707 - __main__ - INFO - New candidates (not previously sent): 57
+2026-10-28 16:10:11,849 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Amazon | Regional Project Design Controls Engineer - APJC, Fleet Remediation Engineering | score=9
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Amazon | Expansion Transaction Manager , APAC Data Center Supply Solutions | score=10
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Amazon | Delivery Consultant - Customer Experience, Technology and Industries | score=6
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Woolworths | Range Optimisation Analyst | score=6
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Woolworths | Store Space Deployment Floor Planner | score=1
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Woolworths | Senior Product Manager | score=13
+2026-10-28 16:10:11,850 - __main__ - INFO -   [Keyword] Woolworths | Senior Finance Analyst - BIG WX | score=5
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Technical Business Analyst / IT Security | score=6
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Senior Product Manager - 12 months FT | score=13
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Senior Operations Analyst - Wpay | score=8
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Engineering Manager | score=12
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Senior Manager - Sales Systems & Autom | score=13
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Operations Executive - 6-months FT | score=12
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Principal Data & AI Engineer- Media | score=11
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Category Lead - Client Partnerships | score=10
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Client Partnership Executive | score=11
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Operations Executive - 12-months FT | score=12
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Head of Trading - Agency | score=9
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Marketing Manager (Trade eDM) | score=2
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Cartology Senior Project manager | score=6
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Retail Media Trader | score=10
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | AI/ML Data Engineer- Senior/Lead | score=4
+2026-10-28 16:10:11,851 - __main__ - INFO -   [Keyword] Woolworths | Digital Designer - FT 6 months | score=11
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Principal Data Scientist | score=3
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Expression of Interest- Data Science | score=1
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Buyer - Own Brand (Non-Food) | score=2
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Planning & Procurement Assistant | score=3
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Packaging Assistant | score=4
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Beauty | score=1
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Senior Category Manager - Technology | score=3
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Head of Procurement - Technology | score=5
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Assistant Category Manager - GM | score=2
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Design Manager - Apparel (12m Contract) | score=4
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Finance Manager -  Commercial Advisory | score=5
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Refrigeration Engineer | score=3
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | GM Technology - Loyalty Domain Lead | score=10
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=5
+2026-10-28 16:10:11,852 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Team Coordinator | score=4
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Associate Delivery Manager- Wiq | score=7
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Supply Planner | score=5
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Catalogue Coordinator | score=4
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Senior Manager- Loyalty Propositions | score=11
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | In-store Marketing Operations Planner | score=5
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Retail Media Specialist | score=9
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Agile Delivery Lead | score=11
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Strategy Manager | score=11
+2026-10-28 16:10:11,853 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
+2026-10-28 16:10:11,854 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
+2026-10-28 16:10:13,543 - __main__ - INFO - Email sent successfully
+2026-10-28 16:10:13,544 - __main__ - INFO - Sent 40 new matches (method: keyword)
