@@ -2063,3 +2063,45 @@
 2026-11-03 17:10:33,263 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
 2026-11-03 17:10:39,442 - __main__ - INFO - Email sent successfully
 2026-11-03 17:10:39,443 - __main__ - INFO - Sent 6 new matches (method: keyword)
+2026-11-04 17:22:06,490 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-11-04 17:22:06,961 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-11-04 17:22:07,521 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-04 17:22:07,912 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-04 17:22:08,244 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-04 17:22:12,038 - __main__ - INFO - Woolworths search 'analyst' found 6 raw jobs
+2026-11-04 17:22:16,004 - __main__ - INFO - Woolworths search 'cartology' found 13 raw jobs
+2026-11-04 17:22:19,501 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-11-04 17:22:23,693 - __main__ - INFO - Woolworths search 'commercial' found 16 raw jobs
+2026-11-04 17:22:28,240 - __main__ - INFO - Woolworths search 'data' found 9 raw jobs
+2026-11-04 17:22:32,762 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-11-04 17:22:36,740 - __main__ - INFO - Woolworths search 'planning' found 15 raw jobs
+2026-11-04 17:22:40,510 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-11-04 17:22:43,515 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-04 17:22:47,358 - __main__ - INFO - Woolworths search 'insights' found 7 raw jobs
+2026-11-04 17:22:47,360 - __main__ - INFO - Woolworths returned 97 raw jobs total (deduplicated)
+2026-11-04 17:22:47,360 - __main__ - INFO - Total unique jobs collected: 153
+2026-11-04 17:22:47,360 - __main__ - INFO - Jobs after location filter: 94
+2026-11-04 17:22:47,360 - __main__ - INFO - New candidates (not previously sent): 20
+2026-11-04 17:22:47,457 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Amazon | WHS Specialist - Health & Wellbeing | score=1
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Amazon | Strategic Account Manager, Strategic Account Services | score=6
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Amazon | Head of Asia Pacific B2B Marketing, Amazon Leo | score=5
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Store Space Deployment Floor Planner | score=1
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Expression of Interest- Data Science | score=1
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Beauty | score=1
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Buyer - Own Brand (Non-Food) | score=2
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-04 17:22:47,459 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Fruit and Veg Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Refrigeration Service Technician | NSW | score=3
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Online Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Lawyer - Competition & Consumer | score=5
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-04 17:22:47,460 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-11-04 17:22:48,507 - __main__ - INFO - Email sent successfully
+2026-11-04 17:22:48,507 - __main__ - INFO - Sent 4 new matches (method: keyword)
