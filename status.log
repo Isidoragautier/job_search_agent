@@ -2149,3 +2149,46 @@
 2026-11-05 17:29:24,919 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
 2026-11-05 17:29:26,746 - __main__ - INFO - Email sent successfully
 2026-11-05 17:29:26,746 - __main__ - INFO - Sent 7 new matches (method: keyword)
+2026-11-06 16:50:10,773 - __main__ - INFO - Amazon query 'analyst' returned 8 raw jobs
+2026-11-06 16:50:11,366 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-11-06 16:50:12,085 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-06 16:50:12,465 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-06 16:50:13,139 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-06 16:50:16,320 - __main__ - INFO - Woolworths search 'analyst' found 8 raw jobs
+2026-11-06 16:50:19,650 - __main__ - INFO - Woolworths search 'cartology' found 11 raw jobs
+2026-11-06 16:50:22,807 - __main__ - INFO - Woolworths search 'ecommerce' found 7 raw jobs
+2026-11-06 16:50:26,355 - __main__ - INFO - Woolworths search 'commercial' found 14 raw jobs
+2026-11-06 16:50:29,994 - __main__ - INFO - Woolworths search 'data' found 4 raw jobs
+2026-11-06 16:50:33,643 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-11-06 16:50:37,625 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-11-06 16:50:40,878 - __main__ - INFO - Woolworths search 'marketing' found 9 raw jobs
+2026-11-06 16:50:43,536 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-06 16:50:47,160 - __main__ - INFO - Woolworths search 'insights' found 3 raw jobs
+2026-11-06 16:50:47,161 - __main__ - INFO - Woolworths returned 84 raw jobs total (deduplicated)
+2026-11-06 16:50:47,161 - __main__ - INFO - Total unique jobs collected: 137
+2026-11-06 16:50:47,162 - __main__ - INFO - Jobs after location filter: 86
+2026-11-06 16:50:47,162 - __main__ - INFO - New candidates (not previously sent): 21
+2026-11-06 16:50:47,298 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Amazon | Sales Operations Analyst, AWS Enterprise Support Strategy & Operations (ESSO) | score=10
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Amazon | Technical Infrastructure Program Manager, DCC Communities  | score=8
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Amazon | WHS Specialist - Health & Wellbeing | score=1
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Woolworths | Store Space Deployment Floor Planner | score=1
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Woolworths | Campaign Delivery Executive - DOOH & ISR | score=12
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Woolworths | Expression of Interest- Data Science | score=1
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Beauty | score=1
+2026-11-06 16:50:47,299 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Buyer - Own Brand (Non-Food) | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | eCom Team Engagement Lead | score=11
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Bakery Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Fruit and Veg Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Content & Influencer Manager | score=2
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Experimentation Capability Lead | score=10
+2026-11-06 16:50:47,300 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
+2026-11-06 16:50:49,615 - __main__ - INFO - Email sent successfully
+2026-11-06 16:50:49,616 - __main__ - INFO - Sent 5 new matches (method: keyword)
