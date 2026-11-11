@@ -2332,3 +2332,38 @@
 2026-11-10 17:09:39,954 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
 2026-11-10 17:09:41,833 - __main__ - INFO - Email sent successfully
 2026-11-10 17:09:41,834 - __main__ - INFO - Sent 4 new matches (method: keyword)
+2026-11-11 17:16:53,134 - __main__ - INFO - Amazon query 'analyst' returned 8 raw jobs
+2026-11-11 17:16:53,667 - __main__ - INFO - Amazon query 'planner' returned 2 raw jobs
+2026-11-11 17:16:54,112 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-11 17:16:54,671 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-11 17:16:55,403 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-11 17:17:00,523 - __main__ - INFO - Woolworths search 'analyst' found 10 raw jobs
+2026-11-11 17:17:04,726 - __main__ - INFO - Woolworths search 'cartology' found 9 raw jobs
+2026-11-11 17:17:08,637 - __main__ - INFO - Woolworths search 'ecommerce' found 8 raw jobs
+2026-11-11 17:17:12,573 - __main__ - INFO - Woolworths search 'commercial' found 12 raw jobs
+2026-11-11 17:17:17,509 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-11-11 17:17:21,695 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-11-11 17:17:25,551 - __main__ - INFO - Woolworths search 'planning' found 10 raw jobs
+2026-11-11 17:17:29,829 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-11-11 17:17:32,761 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-11 17:17:37,611 - __main__ - INFO - Woolworths search 'insights' found 2 raw jobs
+2026-11-11 17:17:37,612 - __main__ - INFO - Woolworths returned 83 raw jobs total (deduplicated)
+2026-11-11 17:17:37,612 - __main__ - INFO - Total unique jobs collected: 137
+2026-11-11 17:17:37,612 - __main__ - INFO - Jobs after location filter: 78
+2026-11-11 17:17:37,612 - __main__ - INFO - New candidates (not previously sent): 13
+2026-11-11 17:17:37,727 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-11 17:17:37,728 - __main__ - INFO -   [Keyword] Amazon | WHS Specialist - Health & Wellbeing | score=1
+2026-11-11 17:17:37,728 - __main__ - INFO -   [Keyword] Woolworths | Machine Learning Engineer | score=9
+2026-11-11 17:17:37,728 - __main__ - INFO -   [Keyword] Woolworths | Expression of Interest- Data Science | score=1
+2026-11-11 17:17:37,728 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Confectionery  15m | score=1
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Buyer - Own Brand (Non-Food) | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Fruit and Veg Manager | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-11 17:17:37,729 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-11 17:17:38,975 - __main__ - INFO - Email sent successfully
+2026-11-11 17:17:38,975 - __main__ - INFO - Sent 1 new matches (method: keyword)
