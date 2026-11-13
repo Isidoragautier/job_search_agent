@@ -2407,3 +2407,37 @@
 2026-11-12 17:39:41,241 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
 2026-11-12 17:39:42,516 - __main__ - INFO - Email sent successfully
 2026-11-12 17:39:42,517 - __main__ - INFO - Sent 8 new matches (method: keyword)
+2026-11-13 17:16:23,402 - __main__ - INFO - Amazon query 'analyst' returned 7 raw jobs
+2026-11-13 17:16:23,765 - __main__ - INFO - Amazon query 'planner' returned 2 raw jobs
+2026-11-13 17:16:24,199 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-13 17:16:24,656 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-13 17:16:25,452 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-13 17:16:29,308 - __main__ - INFO - Woolworths search 'analyst' found 13 raw jobs
+2026-11-13 17:16:32,777 - __main__ - INFO - Woolworths search 'cartology' found 11 raw jobs
+2026-11-13 17:16:36,358 - __main__ - INFO - Woolworths search 'ecommerce' found 9 raw jobs
+2026-11-13 17:16:41,733 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-11-13 17:16:45,460 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-11-13 17:16:50,329 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-11-13 17:16:54,360 - __main__ - INFO - Woolworths search 'planning' found 12 raw jobs
+2026-11-13 17:16:58,394 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-11-13 17:17:01,886 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-13 17:17:05,672 - __main__ - INFO - Woolworths search 'insights' found 0 raw jobs
+2026-11-13 17:17:05,673 - __main__ - INFO - Woolworths returned 92 raw jobs total (deduplicated)
+2026-11-13 17:17:05,673 - __main__ - INFO - Total unique jobs collected: 144
+2026-11-13 17:17:05,673 - __main__ - INFO - Jobs after location filter: 83
+2026-11-13 17:17:05,673 - __main__ - INFO - New candidates (not previously sent): 12
+2026-11-13 17:17:05,789 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Amazon | Client Partner, Large Customer Sales, Amazon Ads | score=10
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Amazon | Facilities Operations Centre (FOC) Engineer, AWS | score=4
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Senior Social Media Manager | score=6
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Expression of Interest- Data Science | score=1
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - 12m FTC Beauty | score=1
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Confectionery  15m | score=1
+2026-11-13 17:17:05,790 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-13 17:17:05,791 - __main__ - INFO -   [Keyword] Woolworths | Dispatch Assistant Manager | score=2
+2026-11-13 17:17:05,791 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-13 17:17:05,791 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-11-13 17:17:05,791 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager | score=2
+2026-11-13 17:17:08,081 - __main__ - INFO - Email sent successfully
+2026-11-13 17:17:08,081 - __main__ - INFO - Sent 3 new matches (method: keyword)
