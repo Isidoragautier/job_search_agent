@@ -2723,3 +2723,37 @@
 2026-11-21 16:52:05,916 - __main__ - INFO -   [Keyword] Woolworths | Fruit and Veg Manager | score=2
 2026-11-21 16:52:05,916 - __main__ - INFO -   [Keyword] Woolworths | Head of Growth & Marketing | score=1
 2026-11-21 16:52:05,916 - __main__ - INFO - No new matching jobs today
+2026-11-22 17:14:03,078 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-11-22 17:14:03,744 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-11-22 17:14:04,088 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-22 17:14:04,406 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-22 17:14:04,741 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-22 17:14:08,090 - __main__ - INFO - Woolworths search 'analyst' found 13 raw jobs
+2026-11-22 17:14:11,082 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-11-22 17:14:14,505 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-11-22 17:14:17,976 - __main__ - INFO - Woolworths search 'commercial' found 13 raw jobs
+2026-11-22 17:14:21,643 - __main__ - INFO - Woolworths search 'data' found 7 raw jobs
+2026-11-22 17:14:25,247 - __main__ - INFO - Woolworths search 'planner' found 18 raw jobs
+2026-11-22 17:14:29,181 - __main__ - INFO - Woolworths search 'planning' found 11 raw jobs
+2026-11-22 17:14:32,568 - __main__ - INFO - Woolworths search 'marketing' found 7 raw jobs
+2026-11-22 17:14:35,541 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-22 17:14:38,919 - __main__ - INFO - Woolworths search 'insights' found 0 raw jobs
+2026-11-22 17:14:38,920 - __main__ - INFO - Woolworths returned 85 raw jobs total (deduplicated)
+2026-11-22 17:14:38,921 - __main__ - INFO - Total unique jobs collected: 136
+2026-11-22 17:14:38,921 - __main__ - INFO - Jobs after location filter: 85
+2026-11-22 17:14:38,921 - __main__ - INFO - New candidates (not previously sent): 13
+2026-11-22 17:14:39,038 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-22 17:14:39,039 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-22 17:14:39,039 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Confectionery  15m | score=1
+2026-11-22 17:14:39,039 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Convenient Meals | score=2
+2026-11-22 17:14:39,039 - __main__ - INFO -   [Keyword] Woolworths | CRM & Loyalty Manager | score=2
+2026-11-22 17:14:39,039 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Bakery Manager | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Fruit and Veg Manager | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Grocery Manager | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Head of Growth & Marketing | score=1
+2026-11-22 17:14:39,040 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager - Big W | score=2
+2026-11-22 17:14:39,040 - __main__ - INFO - No new matching jobs today
