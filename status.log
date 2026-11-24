@@ -2800,3 +2800,38 @@
 2026-11-23 21:33:16,723 - __main__ - INFO -   [Keyword] Woolworths | Head of Growth & Marketing | score=1
 2026-11-23 21:33:19,118 - __main__ - INFO - Email sent successfully
 2026-11-23 21:33:19,119 - __main__ - INFO - Sent 7 new matches (method: keyword)
+2026-11-24 20:14:00,268 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-11-24 20:14:00,908 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-11-24 20:14:01,251 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-24 20:14:01,563 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-24 20:14:01,854 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-24 20:14:05,448 - __main__ - INFO - Woolworths search 'analyst' found 15 raw jobs
+2026-11-24 20:14:08,995 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-11-24 20:14:12,364 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-11-24 20:14:16,198 - __main__ - INFO - Woolworths search 'commercial' found 13 raw jobs
+2026-11-24 20:14:20,047 - __main__ - INFO - Woolworths search 'data' found 12 raw jobs
+2026-11-24 20:14:24,687 - __main__ - INFO - Woolworths search 'planner' found 17 raw jobs
+2026-11-24 20:14:28,960 - __main__ - INFO - Woolworths search 'planning' found 8 raw jobs
+2026-11-24 20:14:32,844 - __main__ - INFO - Woolworths search 'marketing' found 8 raw jobs
+2026-11-24 20:14:36,513 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-24 20:14:40,310 - __main__ - INFO - Woolworths search 'insights' found 1 raw jobs
+2026-11-24 20:14:40,311 - __main__ - INFO - Woolworths returned 90 raw jobs total (deduplicated)
+2026-11-24 20:14:40,311 - __main__ - INFO - Total unique jobs collected: 141
+2026-11-24 20:14:40,311 - __main__ - INFO - Jobs after location filter: 85
+2026-11-24 20:14:40,311 - __main__ - INFO - New candidates (not previously sent): 13
+2026-11-24 20:14:40,363 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-24 20:14:40,364 - __main__ - INFO -   [Keyword] Amazon | Tech Infra Program Manager, Global Connectivity and Network Availability | score=7
+2026-11-24 20:14:40,364 - __main__ - INFO -   [Keyword] Woolworths | National Account Manager | score=11
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Category Manager - Party | score=3
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Category Specialist, Software | score=4
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Confectionery  15m | score=1
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | CRM & Loyalty Manager | score=2
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager - Big W | score=2
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Assistant Store Manager | score=2
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Head of Growth & Marketing | score=1
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Digital Media Planning Specialist | score=11
+2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-24 20:14:41,486 - __main__ - INFO - Email sent successfully
+2026-11-24 20:14:41,486 - __main__ - INFO - Sent 5 new matches (method: keyword)
