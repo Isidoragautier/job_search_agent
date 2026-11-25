@@ -2835,3 +2835,38 @@
 2026-11-24 20:14:40,365 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
 2026-11-24 20:14:41,486 - __main__ - INFO - Email sent successfully
 2026-11-24 20:14:41,486 - __main__ - INFO - Sent 5 new matches (method: keyword)
+2026-11-25 19:26:16,332 - __main__ - INFO - Amazon query 'analyst' returned 6 raw jobs
+2026-11-25 19:26:16,929 - __main__ - INFO - Amazon query 'planner' returned 1 raw jobs
+2026-11-25 19:26:17,396 - __main__ - INFO - Amazon query 'planning' returned 20 raw jobs
+2026-11-25 19:26:17,814 - __main__ - INFO - Amazon query 'marketing' returned 20 raw jobs
+2026-11-25 19:26:18,247 - __main__ - INFO - Amazon query 'insights' returned 20 raw jobs
+2026-11-25 19:26:21,657 - __main__ - INFO - Woolworths search 'analyst' found 15 raw jobs
+2026-11-25 19:26:24,953 - __main__ - INFO - Woolworths search 'cartology' found 10 raw jobs
+2026-11-25 19:26:29,296 - __main__ - INFO - Woolworths search 'ecommerce' found 6 raw jobs
+2026-11-25 19:26:33,455 - __main__ - INFO - Woolworths search 'commercial' found 15 raw jobs
+2026-11-25 19:26:37,166 - __main__ - INFO - Woolworths search 'data' found 10 raw jobs
+2026-11-25 19:26:41,985 - __main__ - INFO - Woolworths search 'planner' found 17 raw jobs
+2026-11-25 19:26:45,876 - __main__ - INFO - Woolworths search 'planning' found 8 raw jobs
+2026-11-25 19:26:49,489 - __main__ - INFO - Woolworths search 'marketing' found 10 raw jobs
+2026-11-25 19:26:52,977 - __main__ - INFO - Woolworths search 'crm' found 0 raw jobs
+2026-11-25 19:26:56,908 - __main__ - INFO - Woolworths search 'insights' found 1 raw jobs
+2026-11-25 19:26:56,909 - __main__ - INFO - Woolworths returned 92 raw jobs total (deduplicated)
+2026-11-25 19:26:56,909 - __main__ - INFO - Total unique jobs collected: 143
+2026-11-25 19:26:56,909 - __main__ - INFO - Jobs after location filter: 83
+2026-11-25 19:26:56,909 - __main__ - INFO - New candidates (not previously sent): 13
+2026-11-25 19:26:57,029 - __main__ - ERROR - Claude API scoring failed, falling back to keyword scoring: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages
+2026-11-25 19:26:57,031 - __main__ - INFO -   [Keyword] Amazon | Facility Operations Center Eng, Facility Operations Center (FOC) | score=7
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Amazon | Partner Development Specialist, APJ Partner Development Specialist  | score=9
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Senior Manager, Strategy & Performance | score=9
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Category Assistant - Confectionery  15m | score=1
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Store Manager | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Assistant Marketing Manager - Big W | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Cleaning and Trolley Collection | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Online Manager | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Head of Growth & Marketing | score=1
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | CRM & Loyalty Manager | score=2
+2026-11-25 19:26:57,032 - __main__ - INFO -   [Keyword] Woolworths | Assistant Designer | score=1
+2026-11-25 19:26:58,230 - __main__ - INFO - Email sent successfully
+2026-11-25 19:26:58,231 - __main__ - INFO - Sent 3 new matches (method: keyword)
